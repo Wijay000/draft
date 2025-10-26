@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion'
-import ChatBot from '../../components/ChatBot'
+import ChatBot from '../components/ChatBot'
 
 export default function WhyMe() {
   return (
