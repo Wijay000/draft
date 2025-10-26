@@ -14,18 +14,20 @@ export default function Layout({ children }) {
       <header className="fixed top-0 left-0 right-0 bg-white shadow-sm z-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center py-4">
-            <Link href="/">
-              <span className="text-xl font-bold text-primary">Leadership & AI</span>
-            </Link>
+            <div className="flex items-center space-x-8">
+              <Link href="/">
+                <span className="text-lg font-medium" style={{ fontSize: '18px' }}>Vijay A. Raju</span>
+              </Link>
+            </div>
             <nav className="flex space-x-8">
               <Link href="/help">
                 <span className="text-gray-700 hover:text-primary">How can I help?</span>
               </Link>
               <Link href="/why-me">
-                <span className="text-gray-700 hover:text-primary">Why me?</span>
+                <span className="text-gray-700 hover:text-primary">Why hire me?</span>
               </Link>
               <Link href="/impact">
-                <span className="text-gray-700 hover:text-primary">What is my impact?</span>
+                <span className="text-gray-700 hover:text-primary">What is my impact so far?</span>
               </Link>
             </nav>
           </div>

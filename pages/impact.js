@@ -23,10 +23,10 @@ export default function Impact() {
         className="text-center mb-12"
       >
         <h1 className="text-4xl font-bold text-gray-900 mb-4">
-          What Is My Impact?
+          What Is My Impact So Far?
         </h1>
         <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-          Explore real results and transformations achieved through our partnerships.
+          Explore the measurable results and transformations achieved through our partnerships.
         </p>
       </motion.div>
 

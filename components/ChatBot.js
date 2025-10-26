@@ -4,40 +4,73 @@ import { motion } from 'framer-motion'
 const SECTIONS = {
   help: {
     title: "How can I help?",
-    content: `I offer strategic guidance and practical support in:
-    • Leadership Development & Executive Coaching
-    • AI Strategy Integration
-    • Digital Transformation
-    • Change Management
-    • Team Performance Optimization
+    content: `I offer comprehensive support in these key areas:
+
+    Leadership Excellence:
+    • Executive coaching and leadership development
+    • Team dynamics and performance optimization
+    • Change management and organizational transformation
     
-    Engagement models are flexible - from one-time consultations to ongoing partnerships.`
+    AI & Digital Innovation:
+    • AI strategy development and implementation
+    • Digital transformation roadmaps
+    • Technology integration and adoption
+    
+    Growth & Scale:
+    • Business strategy alignment
+    • Performance metrics and KPI development
+    • Sustainable scaling frameworks
+    
+    Engagement options range from focused consultations to long-term partnerships.`
   },
   why: {
-    title: "Why me?",
-    content: `My unique value proposition combines:
-    • 15+ years leadership experience in tech and AI
-    • Proven track record of successful digital transformations
-    • Deep understanding of both technical and human aspects
-    • Practical, results-oriented approach
-    • Strong focus on measurable outcomes`
+    title: "Why hire me?",
+    content: `Here's what makes me the right choice for your transformation journey:
+
+    Experience & Expertise:
+    • 15+ years leading tech and AI initiatives
+    • Successfully led 20+ digital transformations
+    • Deep expertise in both technical and human aspects of change
+    
+    Proven Approach:
+    • Data-driven decision making methodology
+    • Human-centered leadership philosophy
+    • Practical, results-focused implementation
+    
+    Industry Recognition:
+    • Featured in leading tech publications
+    • Regular speaker at leadership conferences
+    • Award-winning transformation projects
+    
+    Every engagement is tailored to your specific needs and goals.`
   },
   impact: {
-    title: "What is my impact?",
-    content: `Real results from recent engagements:
-    • 40% improvement in team productivity for a Fortune 500 company
-    • Successful AI integration saving $2M annually
-    • Leadership development program with 95% satisfaction
-    • Cultural transformation with 30% better engagement
+    title: "What is my impact so far?",
+    content: `Here are concrete results from recent partnerships:
+
+    Quantifiable Outcomes:
+    • 40% team productivity improvement at Fortune 500 tech company
+    • $2M annual savings through AI process optimization
+    • 95% satisfaction in leadership development programs
+    • 30% increase in employee engagement scores
     
-    "The guidance transformed how we approach leadership and innovation." - CEO, Tech Company`
+    Client Transformations:
+    • Helped scale a startup from 50 to 500 employees
+    • Led successful digital transformation for a traditional manufacturer
+    • Implemented AI strategy resulting in 3x ROI
+    
+    Client Testimonials:
+    "The guidance transformed how we approach leadership and innovation." - CEO, Tech Company
+    "Our team's performance exceeded all expectations after the engagement." - CTO, Fortune 500
+    
+    Every success story represents real, measurable impact.`
   }
 }
 
 export default function ChatBot() {
   const [messages, setMessages] = useState([{
     type: 'bot',
-    text: 'Hello! What would you like to know more about?\n• How can I help?\n• Why me?\n• What is my impact?'
+    text: 'Hello! What would you like to know more about?\n• How can I help?\n• Why hire me?\n• What is my impact so far?'
   }])
   const [input, setInput] = useState('')
 
@@ -58,7 +91,7 @@ export default function ChatBot() {
     } else if (lowercaseInput.includes('impact')) {
       response = SECTIONS.impact.content
     } else {
-      response = "Could you please specify if you'd like to know about:\n• How can I help?\n• Why me?\n• What is my impact?"
+      response = "Could you please specify if you'd like to know about:\n• How can I help?\n• Why hire me?\n• What is my impact so far?"
     }
 
     setTimeout(() => {

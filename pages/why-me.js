@@ -10,10 +10,10 @@ export default function WhyMe() {
         className="text-center mb-12"
       >
         <h1 className="text-4xl font-bold text-gray-900 mb-4">
-          Why Me?
+          Why Hire Me?
         </h1>
         <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-          Learn about my unique approach and extensive experience in leadership and AI transformation.
+          Discover what makes me uniquely qualified to drive your transformation journey.
         </p>
       </motion.div>
 

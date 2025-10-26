@@ -16,6 +16,9 @@ export default function Home() {
           Empowering leaders to navigate the future with confidence through expert guidance
           in leadership development and AI-driven transformation.
         </p>
+        <p className="text-lg text-gray-500 mt-2">
+          by Vijay A. Raju
+        </p>
       </motion.div>
 
       <ChatBot />
