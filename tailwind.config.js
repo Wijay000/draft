@@ -10,7 +10,22 @@ module.exports = {
         primary: '#0070f3',
         secondary: '#00a8ff',
       },
+      typography: {
+        DEFAULT: {
+          css: {
+            color: '#333',
+            a: {
+              color: '#0070f3',
+              '&:hover': {
+                color: '#0051b3',
+              },
+            },
+          },
+        },
+      },
     },
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/typography'),
+  ],
 }
