@@ -22,11 +22,13 @@ export default function Impact() {
         animate={{ opacity: 1, y: 0 }}
         className="text-center mb-12"
       >
+        <div className="text-4xl mb-4">3️⃣</div>
         <h1 className="text-4xl font-bold text-gray-900 mb-4">
-          What Is My Impact So Far?
+          Stories of impact.
         </h1>
         <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-          Explore the measurable results and transformations achieved through our partnerships.
+          When clarity lands, everything aligns (teams, messages, direction).
+          Here's what happens when leaders stop guessing and start leading.
         </p>
       </motion.div>
 

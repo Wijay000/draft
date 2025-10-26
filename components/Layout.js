@@ -20,14 +20,14 @@ export default function Layout({ children }) {
               </Link>
             </div>
             <nav className="flex space-x-8">
-              <Link href="/help">
-                <span className="text-gray-700 hover:text-primary">How can I help?</span>
+              <Link href="/unlock">
+                <span className="text-gray-700 hover:text-primary">Unlock what's next</span>
               </Link>
-              <Link href="/why-me">
-                <span className="text-gray-700 hover:text-primary">Why hire me?</span>
+              <Link href="/difference">
+                <span className="text-gray-700 hover:text-primary">The difference</span>
               </Link>
               <Link href="/impact">
-                <span className="text-gray-700 hover:text-primary">What is my impact so far?</span>
+                <span className="text-gray-700 hover:text-primary">Stories of impact</span>
               </Link>
             </nav>
           </div>

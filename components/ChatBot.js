@@ -2,75 +2,60 @@ import { useState } from 'react'
 import { motion } from 'framer-motion'
 
 const SECTIONS = {
-  help: {
-    title: "How can I help?",
-    content: `I offer comprehensive support in these key areas:
+  unlock: {
+    title: "Unlock what's next",
+    content: `Let me help you find clarity in your next steps:
 
-    Leadership Excellence:
-    • Executive coaching and leadership development
-    • Team dynamics and performance optimization
-    • Change management and organizational transformation
+    Finding Your Path:
+    • Cut through AI noise and complexity
+    • Identify real growth opportunities
+    • Create a clear action plan
     
-    AI & Digital Innovation:
-    • AI strategy development and implementation
-    • Digital transformation roadmaps
-    • Technology integration and adoption
+    Strategic Focus:
+    • Assessment of your current position
+    • Mapping of key opportunities
+    • Prioritization of initiatives
     
-    Growth & Scale:
-    • Business strategy alignment
-    • Performance metrics and KPI development
-    • Sustainable scaling frameworks
-    
-    Engagement options range from focused consultations to long-term partnerships.`
+    The goal isn't more ideas — it's finding your clear starting point.`
   },
-  why: {
-    title: "Why hire me?",
-    content: `Here's what makes me the right choice for your transformation journey:
+  difference: {
+    title: "The difference",
+    content: `Here's how I turn theory into momentum:
 
-    Experience & Expertise:
-    • 15+ years leading tech and AI initiatives
-    • Successfully led 20+ digital transformations
-    • Deep expertise in both technical and human aspects of change
+    Three Key Pillars:
+    • Technology: Practical AI applications that drive value
+    • Storytelling: Complex ideas made compelling and actionable
+    • Action: Insights converted to executable strategies
     
-    Proven Approach:
-    • Data-driven decision making methodology
-    • Human-centered leadership philosophy
-    • Practical, results-focused implementation
+    My Approach:
+    • No abstract theories - only practical solutions
+    • Bridge technology, narrative, and execution
+    • Focus on creating real momentum
     
-    Industry Recognition:
-    • Featured in leading tech publications
-    • Regular speaker at leadership conferences
-    • Award-winning transformation projects
-    
-    Every engagement is tailored to your specific needs and goals.`
+    Clarity becomes your competitive edge.`
   },
   impact: {
-    title: "What is my impact so far?",
-    content: `Here are concrete results from recent partnerships:
+    title: "Stories of impact",
+    content: `When clarity leads, transformation follows:
 
-    Quantifiable Outcomes:
-    • 40% team productivity improvement at Fortune 500 tech company
-    • $2M annual savings through AI process optimization
-    • 95% satisfaction in leadership development programs
-    • 30% increase in employee engagement scores
+    Real Results:
+    • Teams align on clear priorities
+    • Messages resonate and drive action
+    • Direction becomes obvious and compelling
     
-    Client Transformations:
-    • Helped scale a startup from 50 to 500 employees
-    • Led successful digital transformation for a traditional manufacturer
-    • Implemented AI strategy resulting in 3x ROI
+    Success Stories:
+    • Tech leader found focus in AI strategy, driving 3x growth
+    • Manufacturing CEO unified vision across 500+ team
+    • Startup founder scaled with clarity, not chaos
     
-    Client Testimonials:
-    "The guidance transformed how we approach leadership and innovation." - CEO, Tech Company
-    "Our team's performance exceeded all expectations after the engagement." - CTO, Fortune 500
-    
-    Every success story represents real, measurable impact.`
+    Stop guessing. Start leading with clarity.`
   }
 }
 
 export default function ChatBot() {
   const [messages, setMessages] = useState([{
     type: 'bot',
-    text: 'Hello! What would you like to know more about?\n• How can I help?\n• Why hire me?\n• What is my impact so far?'
+    text: "Hello! What would you like to know more about?\n• Unlock what's next\n• The difference\n• Stories of impact"
   }])
   const [input, setInput] = useState('')
 
