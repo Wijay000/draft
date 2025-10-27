@@ -2,7 +2,7 @@ export default function Insights() {
   // Example articles/posts
   const posts = [
     {
-      title: "Is Prompting new",
+      title: "Is 'prompting' new?",
       date: "",
       description: "",
       url: "https://medium.com/@innovate_11669/is-prompting-new-b09d8fb706df"
