@@ -21,10 +21,10 @@ export default function Ideas() {
       type: "video"
     },
     {
-      title: "Podcast: Innovation as an Inner journey",
-      url: "https://creators.spotify.com/pod/profile/fluid-labs/episodes/Innovation-As-A-Inner-Journey-e2bhrbb/a-aa50an7",
-      thumbnail: "https://i.scdn.co/image/ab6765630000ba8a7c5c3f834c4e4d1f4e3f5e8a",
-      type: "podcast"
+      title: "WEF: Global Shapers ACM 2016",
+      url: "https://www.youtube.com/results?search_query=ACM+Plenary+vijay",
+      thumbnail: "https://www.weforum.org/assets/logo/header.svg",
+      type: "video"
     },
     {
       title: "Davos: Adi Godrej",
@@ -33,22 +33,22 @@ export default function Ideas() {
       type: "video"
     },
     {
-      title: "Davos: Prof. Haussman",
-      url: "https://www.youtube.com/watch?v=gg05B3_soH0",
-      thumbnail: "https://www.weforum.org/assets/logo/header.svg",
-      type: "video"
-    },
-    {
-      title: "WEF: Global Shapers ACM 2016",
-      url: "https://www.youtube.com/results?search_query=ACM+Plenary+vijay",
-      thumbnail: "https://www.weforum.org/assets/logo/header.svg",
-      type: "video"
-    },
-    {
       title: "Cannes Lions: The AI Disruption",
       url: "https://vgthinks.medium.com/cannes-lions-the-ai-disruption-1bc1607a4bb7",
       thumbnail: "https://miro.medium.com/v2/resize:fit:1400/format:webp/1*7wYWZxQxJxQxJxQxJxQxJw.jpeg",
       type: "article"
+    },
+    {
+      title: "Podcast: Innovation as an Inner journey",
+      url: "https://creators.spotify.com/pod/profile/fluid-labs/episodes/Innovation-As-A-Inner-Journey-e2bhrbb/a-aa50an7",
+      thumbnail: "https://i.scdn.co/image/ab6765630000ba8a7c5c3f834c4e4d1f4e3f5e8a",
+      type: "podcast"
+    },
+    {
+      title: "Davos: Prof. Haussman",
+      url: "https://www.youtube.com/watch?v=gg05B3_soH0",
+      thumbnail: "https://www.weforum.org/assets/logo/header.svg",
+      type: "video"
     }
   ];
 
