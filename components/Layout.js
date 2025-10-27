@@ -17,16 +17,19 @@ export default function Layout({ children }) {
       <header className="fixed top-0 left-0 right-0 bg-white shadow-sm z-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center py-4">
-            {/* Left: Name */}
-            <div className="flex items-center">
+            {/* Left: Name and tagline (tagline shows below on mobile) */}
+            <div className="flex flex-col">
               <Link href="/about">
                 <span className="text-lg font-medium hover:text-primary transition-colors" style={{ fontSize: '18px' }}>Vijay A. Raju</span>
               </Link>
+              <span className="font-bold text-gray-900 text-xs mt-1 md:hidden">
+                Innovator. Strategist. Writer. Keynote Speaker
+              </span>
             </div>
 
-            {/* Middle: Tagline */}
-            <div className="flex-1 px-2 text-center">
-              <span className="font-bold text-gray-900 text-xs sm:text-sm md:text-base">
+            {/* Middle: Tagline (hidden on mobile, shown on desktop) */}
+            <div className="hidden md:flex flex-1 px-2 text-center">
+              <span className="font-bold text-gray-900 text-xs sm:text-sm md:text-base mx-auto">
                 Innovator. Strategist. Writer. Keynote Speaker
               </span>
             </div>
