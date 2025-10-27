@@ -48,7 +48,7 @@ export default function Ideas() {
       title: "Davos: Prof. Haussman",
       url: "https://www.youtube.com/watch?v=gg05B3_soH0",
       thumbnail: "/images/Ideas - Davos2.jpg",
-      type: "video"
+      type: "talk"
     }
   ];
 
