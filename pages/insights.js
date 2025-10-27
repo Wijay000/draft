@@ -62,7 +62,7 @@ export default function Insights() {
       url: "https://www.linkedin.com/pulse/leverage-technology-listen-being-who-has-problem-observe-raju/?trackingId=rThVEw4mEF8OOahWRo3uiQ%3D%3D"
     },
     {
-      title: "Are humans going to subdue or surrender to AI?",
+      title: "Subdue or Surrender to AI?",
       date: "",
       description: "",
       url: "https://www.linkedin.com/pulse/ai-humans-going-subdue-surrender-new-phenomenon-vijay-anand-raju/?trackingId=hIuzvnako84mhFRBnGf3cw%3D%3D"
