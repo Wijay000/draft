@@ -1,7 +1,16 @@
 import { motion } from 'framer-motion'
+import { useState } from 'react'
 import ChatBot from '../components/ChatBot'
 
 export default function Impact() {
+  const [expandedCards, setExpandedCards] = useState({})
+
+  const toggleCard = (index) => {
+    setExpandedCards(prev => ({
+      ...prev,
+      [index]: !prev[index]
+    }))
+  }
   const impactStories = [
     {
       title: "Building the Global Shapers Community",
@@ -103,17 +112,18 @@ export default function Impact() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: index * 0.1 }}
-            className="bg-white rounded-lg shadow-lg p-8 hover:shadow-xl transition-shadow"
+            className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow"
           >
-            <h2 className="text-2xl font-bold text-gray-900 mb-6">{story.title}</h2>
-            <div className="space-y-6">
-              {story.sections.map((section, i) => (
-                <div key={i}>
-                  <h3 className="text-lg font-semibold text-gray-900 mb-2">{section.heading}</h3>
-                  <p className="text-gray-700 mb-3 leading-relaxed">{section.content}</p>
-                  {section.links.length > 0 && (
+            <div className="p-8">
+              <h2 className="text-2xl font-bold text-gray-900 mb-6">{story.title}</h2>
+              <div className="space-y-6">
+                {/* Always show Context section */}
+                <div>
+                  <h3 className="text-lg font-semibold text-gray-900 mb-2">{story.sections[0].heading}</h3>
+                  <p className="text-gray-700 mb-3 leading-relaxed">{story.sections[0].content}</p>
+                  {story.sections[0].links.length > 0 && (
                     <div className="flex flex-wrap gap-2">
-                      {section.links.map((link, j) => (
+                      {story.sections[0].links.map((link, j) => (
                         <span key={j} className="text-sm text-blue-600 bg-blue-50 px-2 py-1 rounded">
                           {link}
                         </span>
@@ -121,7 +131,52 @@ export default function Impact() {
                     </div>
                   )}
                 </div>
-              ))}
+
+                {/* Show remaining sections only when expanded */}
+                {expandedCards[index] && story.sections.slice(1).map((section, i) => (
+                  <motion.div
+                    key={i}
+                    initial={{ opacity: 0, height: 0 }}
+                    animate={{ opacity: 1, height: 'auto' }}
+                    exit={{ opacity: 0, height: 0 }}
+                    transition={{ duration: 0.3 }}
+                  >
+                    <h3 className="text-lg font-semibold text-gray-900 mb-2">{section.heading}</h3>
+                    <p className="text-gray-700 mb-3 leading-relaxed">{section.content}</p>
+                    {section.links.length > 0 && (
+                      <div className="flex flex-wrap gap-2">
+                        {section.links.map((link, j) => (
+                          <span key={j} className="text-sm text-blue-600 bg-blue-50 px-2 py-1 rounded">
+                            {link}
+                          </span>
+                        ))}
+                      </div>
+                    )}
+                  </motion.div>
+                ))}
+              </div>
+
+              {/* Read More / Show Less button */}
+              <button
+                onClick={() => toggleCard(index)}
+                className="mt-6 w-full py-3 px-4 bg-gray-100 hover:bg-gray-200 text-gray-900 font-medium rounded-lg transition-colors flex items-center justify-center gap-2"
+              >
+                {expandedCards[index] ? (
+                  <>
+                    Show Less
+                    <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 15l7-7 7 7" />
+                    </svg>
+                  </>
+                ) : (
+                  <>
+                    Read More
+                    <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                    </svg>
+                  </>
+                )}
+              </button>
             </div>
           </motion.div>
         ))}
