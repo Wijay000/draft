@@ -66,6 +66,12 @@ export default function Insights() {
       date: "",
       description: "",
       url: "https://www.linkedin.com/pulse/ai-humans-going-subdue-surrender-new-phenomenon-vijay-anand-raju/?trackingId=hIuzvnako84mhFRBnGf3cw%3D%3D"
+    },
+    {
+      title: "From problem to paradox",
+      date: "",
+      description: "",
+      url: "https://www.weforum.org/stories/2015/06/problem-paradaox-2-social-innovations-that-have-changed-india/"
     }
   ];
 
