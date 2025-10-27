@@ -1,8 +1,11 @@
 import Head from 'next/head'
 import Link from 'next/link'
-import { motion } from 'framer-motion'
+import { motion, AnimatePresence } from 'framer-motion'
+import { useState } from 'react'
 
 export default function Layout({ children }) {
+  const [isMenuOpen, setIsMenuOpen] = useState(false)
+
   return (
     <>
       <Head>
@@ -32,23 +35,50 @@ export default function Layout({ children }) {
               </Link>
             </div>
 
-            {/* Right: Navigation */}
-            <nav className="flex space-x-8 flex-1 justify-end">
-              <Link href="/insights">
-                <span className="text-gray-700 hover:text-primary">Insights</span>
-              </Link>
-              <Link href="/ideas">
-                <span className="text-gray-700 hover:text-primary">Ideas</span>
-              </Link>
-              <Link href="/impact">
-                <span className="text-gray-700 hover:text-primary">Impact</span>
-              </Link>
-              <Link href="/interact">
-                <span className="text-gray-700 hover:text-primary">Interact</span>
-              </Link>
-            </nav>
+            {/* Right: Menu Icon */}
+            <div className="flex justify-end flex-1">
+              <button
+                onClick={() => setIsMenuOpen(!isMenuOpen)}
+                className="w-12 h-12 rounded-full bg-white shadow-md hover:shadow-lg transition-all flex items-center justify-center text-gray-700 hover:text-primary"
+                aria-label="Menu"
+              >
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  {isMenuOpen ? (
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                  ) : (
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
+                  )}
+                </svg>
+              </button>
+            </div>
           </div>
         </div>
+
+        {/* Dropdown Menu */}
+        <AnimatePresence>
+          {isMenuOpen && (
+            <motion.nav
+              initial={{ opacity: 0, y: -10 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -10 }}
+              transition={{ duration: 0.2 }}
+              className="absolute top-full right-0 mt-2 mr-4 bg-white rounded-lg shadow-xl border border-gray-100 py-2 min-w-[200px]"
+            >
+              <Link href="/insights" onClick={() => setIsMenuOpen(false)}>
+                <span className="block px-6 py-3 text-gray-700 hover:bg-gray-50 hover:text-primary transition-colors cursor-pointer">Insights</span>
+              </Link>
+              <Link href="/ideas" onClick={() => setIsMenuOpen(false)}>
+                <span className="block px-6 py-3 text-gray-700 hover:bg-gray-50 hover:text-primary transition-colors cursor-pointer">Ideas</span>
+              </Link>
+              <Link href="/impact" onClick={() => setIsMenuOpen(false)}>
+                <span className="block px-6 py-3 text-gray-700 hover:bg-gray-50 hover:text-primary transition-colors cursor-pointer">Impact</span>
+              </Link>
+              <Link href="/interact" onClick={() => setIsMenuOpen(false)}>
+                <span className="block px-6 py-3 text-gray-700 hover:bg-gray-50 hover:text-primary transition-colors cursor-pointer">Interact</span>
+              </Link>
+            </motion.nav>
+          )}
+        </AnimatePresence>
       </header>
 
       <main className="pt-24 min-h-screen bg-gray-50">

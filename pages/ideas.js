@@ -43,6 +43,12 @@ export default function Ideas() {
       url: "https://www.youtube.com/results?search_query=ACM+Plenary+vijay",
       thumbnail: "https://www.weforum.org/assets/logo/header.svg",
       type: "video"
+    },
+    {
+      title: "Cannes Lions: The AI Disruption",
+      url: "https://vgthinks.medium.com/cannes-lions-the-ai-disruption-1bc1607a4bb7",
+      thumbnail: "https://miro.medium.com/v2/resize:fit:1400/format:webp/1*7wYWZxQxJxQxJxQxJxQxJw.jpeg",
+      type: "article"
     }
   ];
 
