@@ -195,12 +195,11 @@ export default function Impact() {
         animate={{ opacity: 1, y: 0 }}
         className="text-center mb-12"
       >
-        <div className="text-4xl mb-4">🌍</div>
         <h1 className="text-4xl font-bold text-gray-900 mb-4">
           Impact
         </h1>
         <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-          Creating lasting positive change through innovation and collaboration.
+          Creating lasting positive impact across Europe, Americas and Asia
         </p>
       </motion.div>
 
