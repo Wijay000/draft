@@ -161,6 +161,31 @@ export default function Impact() {
           links: []
         }
       ]
+    },
+    {
+      title: "Obesity Innovation Lab",
+      sections: [
+        {
+          heading: "Context",
+          content: "Amid rising demand for systems-level innovation in chronic disease care, I launched the Obesity Innovation Lab as an in-house startup within a consulting firm. The mission was to reimagine how consulting firms could drive societal impact by tackling obesity as a complex, multi-dimensional challenge—blending strategy, behavioral design, and digital innovation. Rather than confining our work to advisory reports, I set out to build a value proposition centered on orchestrating diverse expertise, data intelligence, and collaborative action across healthcare, technology, and community sectors.",
+          links: []
+        },
+        {
+          heading: "Challenge",
+          content: "Traditional consulting tools excel in analysis, but often fall short when real-world complexity demands integration and co-creation. The challenge was to design a capability set that could move seamlessly from ecosystem insight to rapid prototyping and scalable intervention. This required aligning incentives among clinicians, startups, payers, and patients, while developing models that were commercially viable and ethically sound. Success meant demonstrating that a consulting firm could be a true innovation catalyst—not just a strategist—within the fight against obesity.",
+          links: []
+        },
+        {
+          heading: "Approach",
+          content: "I led the conceptualization and design of the Lab's core value proposition and operating model. We mapped the entire obesity ecosystem to identify leverage points, then built integrated capabilities: Data-driven ecosystem insight, revealing behavioral and systemic gaps; Human-centered design sprints, rapidly prototyping real-world solutions; Platform partnerships, linking digital health startups, researchers, and care teams; AI-enabled analytics, supporting precision prevention and care personalization. These capabilities were embedded within agile project teams, and governed ethically to ensure transparency, IP clarity, and measurable outcomes. Our approach prioritized action, learning, and cross-sector collaboration above static deliverables.",
+          links: []
+        },
+        {
+          heading: "Impact",
+          content: "In its first year, the Lab engaged several senior executives from leading healthcare companies to co-create innovative programs. It also signed a memorandum of understanding with a major hospital chain in India and established a strategic collaboration with the Ministry of Health in a Northern Indian State. These partnerships accelerated the Lab's reach and credibility across markets. What began as an idea quickly evolved into a scalable model, demonstrating how consulting can drive real-world impact through systems design, ecosystem building, and entrepreneurial action.",
+          links: []
+        }
+      ]
     }
   ]
 
