@@ -104,7 +104,6 @@ export default function Insights() {
 
       {/* Featured Article */}
       <section className="mb-12">
-        <h2 className="text-2xl font-bold text-gray-900 mb-6">Featured</h2>
         <a
           href={featuredPost.url}
           target="_blank"
