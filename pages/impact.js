@@ -13,6 +13,7 @@ export default function Impact() {
   const impactStories = [
     {
       title: "Building AI Capabilities",
+      image: "/images/Impact - AI.jpg", // Using specific AI image
       sections: [
         {
           heading: "Context",
@@ -38,6 +39,7 @@ export default function Impact() {
     },
     {
       title: "Business Model Innovation in Asia",
+      image: "/images/Impact - HHFA.jpg", // Using specific HHFA image
       sections: [
         {
           heading: "Context",
@@ -63,6 +65,7 @@ export default function Impact() {
     },
     {
       title: "Social Innovation in Mexico and Brazil",
+      image: "🌎", // Latin America/Global impact
       sections: [
         {
           heading: "Context",
@@ -88,6 +91,7 @@ export default function Impact() {
     },
     {
       title: "Innovating for mature job seekers in UK",
+      image: "🇬🇧", // UK flag for location
       sections: [
         {
           heading: "Context",
@@ -113,6 +117,7 @@ export default function Impact() {
     },
     {
       title: "Responsible Innovation for a cleaner Geneva",
+      image: "🇨🇭", // Swiss flag for Geneva
       sections: [
         {
           heading: "Context",
@@ -138,6 +143,7 @@ export default function Impact() {
     },
     {
       title: "Building the Global Shapers Community",
+      image: "/images/Ideas - WEF.jpg", // Using WEF image
       sections: [
         {
           heading: "Context",
@@ -163,6 +169,7 @@ export default function Impact() {
     },
     {
       title: "Obesity Innovation Lab",
+      image: "🔬", // Lab/Research themed
       sections: [
         {
           heading: "Context",
@@ -212,6 +219,19 @@ export default function Impact() {
             transition={{ delay: index * 0.1 }}
             className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow flex flex-col"
           >
+            {/* Image/Icon above each card */}
+            <div className="flex justify-center items-center p-6 bg-gray-50">
+              {story.image.startsWith('/') ? (
+                <img
+                  src={story.image}
+                  alt={story.title}
+                  className="w-24 h-24 object-cover rounded-lg shadow-md"
+                />
+              ) : (
+                <div className="text-6xl">{story.image}</div>
+              )}
+            </div>
+            
             <div className="p-8 flex-grow">
               <h2 className="text-2xl font-bold text-gray-900 mb-6">{story.title}</h2>
               <div className="space-y-6">

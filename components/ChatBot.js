@@ -53,10 +53,7 @@ const SECTIONS = {
 }
 
 export default function ChatBot() {
-  const [messages, setMessages] = useState([{
-    type: 'bot',
-    text: "Hello! What would you like to know more about?\n• Unlock what's next\n• The difference\n• Stories of impact"
-  }])
+  const [messages, setMessages] = useState([])
   const [input, setInput] = useState('')
 
   const handleSubmit = (e) => {

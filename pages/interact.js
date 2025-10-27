@@ -56,24 +56,42 @@ export default function Interact() {
 
       <div className="bg-white p-6 rounded-lg shadow-lg mb-12">
         <h2 className="text-2xl font-semibold mb-6 text-primary text-center">Testimonials</h2>
-        <div className="grid md:grid-cols-2 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <motion.blockquote
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.6 }}
-            className="text-gray-600 italic"
+            className="text-gray-600 italic p-4 bg-gray-50 rounded-lg"
           >
-            "The guidance transformed how we approach leadership and innovation. Our team is more aligned and effective than ever."
-            <footer className="mt-2 font-semibold">- CEO, Tech Company</footer>
+            "I consider myself extremely lucky. One primary reason is that I have had the privilege of learning from so many smart people. From 2007 to 2009, a small group of people at Innosight, under the leadership of Brad Gambill, dedicated their lives to the hard work of incubating new businesses. Brad, Hari Nair, George Tattersfield, Alasdair Trotter, Kuen Loon Ho, Dheeraj Batra, Elnor Rozenrot, Dan Gay, and Vijay Raju in particular taught me an inordinate amount about what life is really like in innovation's first mile."
+            <footer className="mt-2 font-semibold">- Scott Anthony, Ranked #7 in Thinkers50 list</footer>
           </motion.blockquote>
           <motion.blockquote
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.8 }}
-            className="text-gray-600 italic"
+            className="text-gray-600 italic p-4 bg-gray-50 rounded-lg"
           >
-            "The AI integration strategy exceeded our expectations. We're seeing real results in efficiency and innovation."
-            <footer className="mt-2 font-semibold">- CTO, Fortune 500 Company</footer>
+            "Vijay is as creative and innovative thinker as I have come across in my career. What sets him apart is ability to quickly get in the market and test out key assumptions and gather market insights around the consumer job to be done"
+            <footer className="mt-2 font-semibold">- Hari Nair, Vice President, R&D Fabric & Home Care Global Packaging, Learning Lab and Partner Lab at Procter & Gamble, Co-Author The Innovative Leader</footer>
+          </motion.blockquote>
+          <motion.blockquote
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ delay: 1.0 }}
+            className="text-gray-600 italic p-4 bg-gray-50 rounded-lg"
+          >
+            "Vijay is higly strategic with a passion for developing new business model for healthcare industry. Vijay believes more in human values and relationships. He is very humble and friendly in nature."
+            <footer className="mt-2 font-semibold">- Munish Sehgal, Head of Regional Marketing, Abbott, Singapore</footer>
+          </motion.blockquote>
+          <motion.blockquote
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ delay: 1.2 }}
+            className="text-gray-600 italic p-4 bg-gray-50 rounded-lg"
+          >
+            "Vijay changed the way we approach innovation in the organization. We benefited from how he blended the entrepreneurial approaches with traditional consulting ones with a great emphasis on people and not just process"
+            <footer className="mt-2 font-semibold">- Managing Director, Leading Corporate Foundation</footer>
           </motion.blockquote>
         </div>
       </div>
