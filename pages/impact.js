@@ -27,6 +27,31 @@ export default function Impact() {
           links: []
         }
       ]
+    },
+    {
+      title: "Business Model Innovation",
+      sections: [
+        {
+          heading: "Context",
+          content: "In India, heart disease had become the number one killer, claiming millions of lives each year. The tragedy was not just medical; it was systemic. People were dying not because treatments did not exist but because they could not afford or access them. Medtronic, the world's largest medical device company, wanted to change this reality. Instead of improving its technology, the company sought to redesign how life-saving cardiac care could reach those most in need.",
+          links: []
+        },
+        {
+          heading: "Challenge",
+          content: "How could a pacemaker, one of the world's most advanced medical devices, be made accessible to patients earning less than $100 a month? As Venture Director at Innosight Ventures, I led field research across hospitals and clinics in India to map the full patient journey. We discovered four barriers that locked people out of care: lack of awareness, limited diagnostics, fragmented care pathways, and affordability. The breakthrough insight was that solving this challenge would require a new business model, not a new product.",
+          links: []
+        },
+        {
+          heading: "Approach",
+          content: "We designed Healthy Heart for All, a patient-centered ecosystem focused on access, awareness, and affordability. We created outreach campaigns that invited patients to free heart screenings through hotlines, mobile ads, and community events. We partnered with hospitals to run telemedicine-enabled camps for early diagnosis and follow-up. Most importantly, we built India's first consumer financing program for pacemakers, enabling families to pay through small monthly installments. The pilot launched at The Mission Hospital in Durgapur. The first patient, a 44-year-old mother named Angurbala, suffered from severe heart disease and lived on $65 a month. After her implant, she said, \"If it weren't for this program, I would not be alive today.\"",
+          links: []
+        },
+        {
+          heading: "Impact",
+          content: "In its first four years, Healthy Heart for All screened more than 167,000 patients and helped 15,000 receive pacemaker implants. The model proved financially sustainable and socially transformative, and Medtronic expanded it to hundreds of hospitals across India and later to other emerging economies. The initiative became a blueprint for inclusive innovation, demonstrating that when we design with empathy and rethink systems, we can turn advanced technology into accessible human impact.",
+          links: []
+        }
+      ]
     }
   ]
 
