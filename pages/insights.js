@@ -14,7 +14,7 @@ export default function Insights() {
       url: "https://medium.com/@innovate_11669/data-is-not-the-phenomenon-5476a6651e2"
     },
     {
-      title: "Should ChatGPT be banned from schools and universities?",
+      title: "Schools banning AI Models",
       date: "",
       description: "",
       url: "https://medium.com/@innovate_11669/should-we-ban-chatgpt-from-universities-and-schools-23ed6be7396b"
