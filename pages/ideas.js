@@ -23,7 +23,7 @@ export default function Ideas() {
     {
       title: "DLC Talks: Responsible Innovation",
       url: "https://www.youtube.com/watch?v=xx6_3oSlVcc&t=2s",
-      thumbnail: "https://img.youtube.com/vi/xx6_3oSlVcc/maxresdefault.jpg",
+      thumbnail: "/images/Ideas - DLC.jpg",
       type: "talk"
     },
     {
