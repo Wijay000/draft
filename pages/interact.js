@@ -5,8 +5,14 @@ export default function Interact() {
   const interactionTypes = [
     {
       title: "Speaking Engagements",
-      description: "Keynotes on leadership, innovation, sustainability, and AI at global forums and corporate events.",
-      highlights: ["WEF Davos", "Cannes Lions", "TEDx"]
+      description: "If you are looking for a keynote speaker or an expert voice for a panel discussion at your event",
+      images: [
+        "/images/Interact - WEF.jpg",
+        "/images/Interact - TED.jpg", 
+        "/images/Interact - Cannes.jpg",
+        "/images/Interact - GOYN.jpg",
+        "/images/Interact - SIF.jpg"
+      ]
     },
     {
       title: "Advisory & Consulting",
@@ -42,14 +48,34 @@ export default function Interact() {
           >
             <h2 className="text-2xl font-semibold mb-4 text-primary">{type.title}</h2>
             <p className="text-gray-600 mb-4">{type.description}</p>
-            <div className="border-t pt-4">
-              <h3 className="font-semibold mb-2 text-gray-700">Past Engagements:</h3>
-              <ul className="space-y-2">
-                {type.highlights.map(highlight => (
-                  <li key={highlight} className="text-gray-600">• {highlight}</li>
-                ))}
-              </ul>
-            </div>
+            
+            {/* Display images for Speaking Engagements */}
+            {type.images && (
+              <div className="mb-4">
+                <div className="grid grid-cols-2 gap-2">
+                  {type.images.map((image, imgIndex) => (
+                    <img
+                      key={imgIndex}
+                      src={image}
+                      alt={`${type.title} ${imgIndex + 1}`}
+                      className="w-full h-24 object-cover rounded-lg shadow-sm"
+                    />
+                  ))}
+                </div>
+              </div>
+            )}
+            
+            {/* Display highlights for other cards */}
+            {type.highlights && (
+              <div className="border-t pt-4">
+                <h3 className="font-semibold mb-2 text-gray-700">Past Engagements:</h3>
+                <ul className="space-y-2">
+                  {type.highlights.map(highlight => (
+                    <li key={highlight} className="text-gray-600">• {highlight}</li>
+                  ))}
+                </ul>
+              </div>
+            )}
           </motion.div>
         ))}
       </div>
