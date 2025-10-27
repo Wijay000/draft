@@ -5,9 +5,22 @@ export default function Home() {
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
       <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        className="mb-16"
+      >
+        <img
+          src="/hero-image.jpg"
+          alt="Leadership and Innovation"
+          className="w-full max-w-5xl mx-auto rounded-lg shadow-xl object-cover h-[500px]"
+        />
+      </motion.div>
+
+      <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
-        className="text-center mb-20"
+        transition={{ delay: 0.3 }}
+        className="text-center mb-12"
       >
         <h1 className="text-5xl font-bold text-gray-900 mb-6 leading-tight">
           The world is moving faster than your next decision.
@@ -64,7 +77,7 @@ export default function Home() {
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
-        transition={{ delay: 0.8 }}
+        transition={{ delay: 1 }}
         className="text-center max-w-2xl mx-auto border-t pt-12"
       >
         <p className="text-2xl text-gray-700 mb-4">

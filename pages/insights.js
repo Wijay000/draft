@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion'
 import ChatBot from '../components/ChatBot'
 
-export default function UnlockWhatsNext() {
+export default function Insights() {
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
       <motion.div
@@ -9,12 +9,12 @@ export default function UnlockWhatsNext() {
         animate={{ opacity: 1, y: 0 }}
         className="text-center mb-12"
       >
-        <div className="text-4xl mb-4">1️⃣</div>
+        <div className="text-4xl mb-4">💡</div>
         <h1 className="text-4xl font-bold text-gray-900 mb-4">
-          Unlock what's next.
+          Insights
         </h1>
         <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-          You don't need more ideas. You need a clear place to start.
+          Thought leadership on leadership, innovation, and responsible technology.
         </p>
       </motion.div>
 

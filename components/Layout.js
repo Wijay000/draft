@@ -34,14 +34,17 @@ export default function Layout({ children }) {
 
             {/* Right: Navigation */}
             <nav className="flex space-x-8 flex-1 justify-end">
-              <Link href="/unlock">
-                <span className="text-gray-700 hover:text-primary">Unlock what's next</span>
+              <Link href="/insights">
+                <span className="text-gray-700 hover:text-primary">Insights</span>
               </Link>
-              <Link href="/difference">
-                <span className="text-gray-700 hover:text-primary">The difference</span>
+              <Link href="/advisory">
+                <span className="text-gray-700 hover:text-primary">Advisory</span>
+              </Link>
+              <Link href="/speaking">
+                <span className="text-gray-700 hover:text-primary">Speaking</span>
               </Link>
               <Link href="/impact">
-                <span className="text-gray-700 hover:text-primary">Stories of impact</span>
+                <span className="text-gray-700 hover:text-primary">Impact</span>
               </Link>
             </nav>
           </div>

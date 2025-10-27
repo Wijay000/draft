@@ -2,16 +2,21 @@ import { motion } from 'framer-motion'
 import ChatBot from '../components/ChatBot'
 
 export default function Impact() {
-  const caseStudies = [
+  const impactStories = [
     {
-      title: "Fortune 500 Transformation",
-      description: "Led digital transformation resulting in 40% productivity improvement and $2M annual savings through AI integration.",
-      results: ["40% productivity increase", "Successful AI integration", "$2M annual savings"]
+      title: "Global Shapers Community",
+      description: "Led Shape#Sustainability campaign across 100+ cities in partnership with UN, driving local climate action and community engagement.",
+      impact: ["100+ cities engaged", "UN partnership", "Local climate initiatives"]
     },
     {
-      title: "Leadership Program Impact",
-      description: "Developed and implemented a comprehensive leadership program achieving 95% satisfaction rate and 30% improved team engagement.",
-      results: ["95% satisfaction rate", "30% better engagement", "Improved retention"]
+      title: "Innovation for Healthcare",
+      description: "Part of the core team that launched the Edison award-winning 'Healthy Heart for All' initiative with Medtronic, improving healthcare accessibility.",
+      impact: ["Edison Award winner", "Improved healthcare access", "Global reach"]
+    },
+    {
+      title: "Climate Innovation",
+      description: "Designed and led climate innovation challenges with major corporations, resulting in implementable solutions for sustainability.",
+      impact: ["Multiple corporate partnerships", "Sustainable solutions", "Measurable environmental impact"]
     }
   ]
 
@@ -22,64 +27,41 @@ export default function Impact() {
         animate={{ opacity: 1, y: 0 }}
         className="text-center mb-12"
       >
-        <div className="text-4xl mb-4">3️⃣</div>
+        <div className="text-4xl mb-4">🌍</div>
         <h1 className="text-4xl font-bold text-gray-900 mb-4">
-          Stories of impact.
+          Impact
         </h1>
         <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-          When clarity lands, everything aligns (teams, messages, direction).
-          Here's what happens when leaders stop guessing and start leading.
+          Creating lasting positive change through innovation and collaboration.
         </p>
       </motion.div>
 
-      <div className="grid md:grid-cols-2 gap-8 mb-12">
-        {caseStudies.map((study, index) => (
+      <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3 mt-12">
+        {impactStories.map((story, index) => (
           <motion.div
-            key={study.title}
-            initial={{ opacity: 0, x: index % 2 === 0 ? -20 : 20 }}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ delay: index * 0.2 }}
-            className="bg-white p-6 rounded-lg shadow-lg"
+            key={index}
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: index * 0.1 }}
+            className="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow"
           >
-            <h2 className="text-2xl font-semibold mb-4 text-primary">{study.title}</h2>
-            <p className="text-gray-600 mb-4">{study.description}</p>
-            <div className="border-t pt-4">
-              <h3 className="font-semibold mb-2 text-gray-700">Key Results:</h3>
-              <ul className="space-y-2">
-                {study.results.map(result => (
-                  <li key={result} className="text-gray-600">• {result}</li>
-                ))}
-              </ul>
-            </div>
+            <h2 className="text-xl font-semibold mb-4">{story.title}</h2>
+            <p className="text-gray-600 mb-4">{story.description}</p>
+            <ul className="space-y-2">
+              {story.impact.map((item, i) => (
+                <li key={i} className="flex items-center text-gray-700">
+                  <span className="mr-2">•</span>
+                  {item}
+                </li>
+              ))}
+            </ul>
           </motion.div>
         ))}
       </div>
 
-      <div className="bg-white p-6 rounded-lg shadow-lg mb-12">
-        <h2 className="text-2xl font-semibold mb-6 text-primary text-center">Testimonials</h2>
-        <div className="grid md:grid-cols-2 gap-6">
-          <motion.blockquote
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ delay: 0.6 }}
-            className="text-gray-600 italic"
-          >
-            "The guidance transformed how we approach leadership and innovation. Our team is more aligned and effective than ever."
-            <footer className="mt-2 font-semibold">- CEO, Tech Company</footer>
-          </motion.blockquote>
-          <motion.blockquote
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ delay: 0.8 }}
-            className="text-gray-600 italic"
-          >
-            "The AI integration strategy exceeded our expectations. We're seeing real results in efficiency and innovation."
-            <footer className="mt-2 font-semibold">- CTO, Fortune 500 Company</footer>
-          </motion.blockquote>
-        </div>
+      <div className="mt-12">
+        <ChatBot />
       </div>
-
-      <ChatBot />
     </div>
   )
 }
