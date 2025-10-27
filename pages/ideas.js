@@ -15,6 +15,12 @@ export default function Ideas() {
       type: "book"
     },
     {
+      title: "Podcast: Innovation as an Inner journey",
+      url: "https://creators.spotify.com/pod/profile/fluid-labs/episodes/Innovation-As-A-Inner-Journey-e2bhrbb/a-aa50an7",
+      thumbnail: "/images/Ideas - Inner Journey.jpeg",
+      type: "podcast"
+    },
+    {
       title: "DLC Talks: Responsible Innovation",
       url: "https://www.youtube.com/watch?v=xx6_3oSlVcc&t=2s",
       thumbnail: "https://img.youtube.com/vi/xx6_3oSlVcc/maxresdefault.jpg",
@@ -37,12 +43,6 @@ export default function Ideas() {
       url: "https://vgthinks.medium.com/cannes-lions-the-ai-disruption-1bc1607a4bb7",
       thumbnail: "/images/Ideas - Cannes.jpeg",
       type: "article"
-    },
-    {
-      title: "Podcast: Innovation as an Inner journey",
-      url: "https://creators.spotify.com/pod/profile/fluid-labs/episodes/Innovation-As-A-Inner-Journey-e2bhrbb/a-aa50an7",
-      thumbnail: "/images/Ideas - Inner Journey.jpeg",
-      type: "podcast"
     },
     {
       title: "Davos: Prof. Haussman",
