@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion'
 import ChatBot from '../components/ChatBot'
 
-export default function Advisory() {
+export default function Ideas() {
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
       <motion.div
@@ -9,12 +9,12 @@ export default function Advisory() {
         animate={{ opacity: 1, y: 0 }}
         className="text-center mb-12"
       >
-        <div className="text-4xl mb-4">🎯</div>
+        <div className="text-4xl mb-4">💡</div>
         <h1 className="text-4xl font-bold text-gray-900 mb-4">
-          Advisory
+          Ideas
         </h1>
         <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-          Strategic guidance for businesses on innovation, growth, and digital transformation.
+          Fresh perspectives and innovative approaches to drive meaningful change.
         </p>
       </motion.div>
 

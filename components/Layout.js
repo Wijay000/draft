@@ -37,14 +37,14 @@ export default function Layout({ children }) {
               <Link href="/insights">
                 <span className="text-gray-700 hover:text-primary">Insights</span>
               </Link>
-              <Link href="/advisory">
-                <span className="text-gray-700 hover:text-primary">Advisory</span>
-              </Link>
-              <Link href="/speaking">
-                <span className="text-gray-700 hover:text-primary">Speaking</span>
+              <Link href="/ideas">
+                <span className="text-gray-700 hover:text-primary">Ideas</span>
               </Link>
               <Link href="/impact">
                 <span className="text-gray-700 hover:text-primary">Impact</span>
+              </Link>
+              <Link href="/interact">
+                <span className="text-gray-700 hover:text-primary">Interact</span>
               </Link>
             </nav>
           </div>
