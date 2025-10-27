@@ -139,6 +139,18 @@ export default function About() {
               </div>
             </div>
           </div>
+
+          <div className="bg-gray-50 rounded-lg p-8 shadow-md">
+            <p className="text-lg leading-relaxed text-gray-700 mb-6 italic">
+              "Vijay changed the way we approach innovation in the organization. We benefited from how he blended the entrepreneurial approaches with traditional consulting ones with a great emphasis on people and not just process"
+            </p>
+            <div className="flex items-center justify-end">
+              <div className="text-right">
+                <p className="font-semibold text-gray-900">Managing Director</p>
+                <p className="text-sm text-gray-600">Leading Corporate Foundation</p>
+              </div>
+            </div>
+          </div>
         </div>
       </motion.div>
     </div>
