@@ -1,24 +1,35 @@
-
 export default function Insights() {
   // Example articles/posts
   const posts = [
     {
-      title: "How to Lead with Clarity in Uncertain Times",
-      date: "Oct 2025",
-      description: "A practical guide to making confident decisions when the world is moving fast.",
-      url: "#"
+      title: "Is Prompting new",
+      date: "",
+      description: "",
+      url: "https://medium.com/@innovate_11669/is-prompting-new-b09d8fb706df"
     },
     {
-      title: "Responsible Innovation: Beyond the Buzzwords",
-      date: "Sep 2025",
-      description: "What it really means to innovate responsibly—and how to put it into practice.",
-      url: "#"
+      title: "Data is not the phenomenon",
+      date: "",
+      description: "",
+      url: "https://medium.com/@innovate_11669/data-is-not-the-phenomenon-5476a6651e2"
     },
     {
-      title: "AI for Good: Turning Hype into Impact",
-      date: "Aug 2025",
-      description: "Lessons from real-world projects that use AI to drive positive change.",
-      url: "#"
+      title: "Should ChatGPT be banned from schools and universities?",
+      date: "",
+      description: "",
+      url: "https://medium.com/@innovate_11669/should-we-ban-chatgpt-from-universities-and-schools-23ed6be7396b"
+    },
+    {
+      title: "Humans to Humachines?",
+      date: "",
+      description: "",
+      url: "https://www.linkedin.com/pulse/humans-humachines-vijay-anand-raju/"
+    },
+    {
+      title: "Innovation requires perseverance",
+      date: "",
+      description: "",
+      url: "https://medium.com/@innovate_11669/innovation-requires-perseverance-and-creativity-5fa9fe0dba44"
     }
   ];
 
