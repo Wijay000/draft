@@ -117,7 +117,7 @@ export default function Impact() {
     },
     {
       title: "Responsible Innovation for a cleaner Geneva",
-      image: "/images/Impact - Cig.jpeg", // Using specific Cig image
+      image: "/images/Impact - Cig.jpg", // Using specific Cig image
       sections: [
         {
           heading: "Context",
