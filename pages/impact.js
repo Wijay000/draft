@@ -212,9 +212,9 @@ export default function Impact() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: index * 0.1 }}
-            className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow"
+            className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow flex flex-col"
           >
-            <div className="p-8">
+            <div className="p-8 flex-grow">
               <h2 className="text-2xl font-bold text-gray-900 mb-6">{story.title}</h2>
               <div className="space-y-6">
                 {/* Always show Context section */}
@@ -255,11 +255,13 @@ export default function Impact() {
                   </motion.div>
                 ))}
               </div>
+            </div>
 
-              {/* Read More / Show Less button */}
+            {/* Read More / Show Less button */}
+            <div className="p-8 pt-0">
               <button
                 onClick={() => toggleCard(index)}
-                className="mt-6 w-full py-3 px-4 bg-gray-100 hover:bg-gray-200 text-gray-900 font-medium rounded-lg transition-colors flex items-center justify-center gap-2"
+                className="w-full py-3 px-4 bg-gray-100 hover:bg-gray-200 text-gray-900 font-medium rounded-lg transition-colors flex items-center justify-center gap-2"
               >
                 {expandedCards[index] ? (
                   <>
