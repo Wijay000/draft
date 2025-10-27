@@ -56,7 +56,7 @@ export default function Insights() {
       url: "https://lnkd.in/ePP7pBZJ"
     },
     {
-      title: "To leverage technology, listen to the user",
+      title: "Listen to the end user",
       date: "",
       description: "",
       url: "https://www.linkedin.com/pulse/leverage-technology-listen-being-who-has-problem-observe-raju/?trackingId=rThVEw4mEF8OOahWRo3uiQ%3D%3D"
