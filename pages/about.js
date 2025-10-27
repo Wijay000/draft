@@ -10,7 +10,7 @@ export default function About() {
       >
         <div className="mb-8 mt-6">
           <img
-            src="/images/About Vijay.jpg"
+            src="/images/About Vijay.jpeg"
             alt="Vijay A. Raju"
             className="w-48 h-48 rounded-full mx-auto object-cover shadow-lg"
           />
