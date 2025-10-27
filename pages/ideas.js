@@ -25,6 +25,18 @@ export default function Ideas() {
       url: "https://creators.spotify.com/pod/profile/fluid-labs/episodes/Innovation-As-A-Inner-Journey-e2bhrbb/a-aa50an7",
       thumbnail: "https://i.scdn.co/image/ab6765630000ba8a7c5c3f834c4e4d1f4e3f5e8a",
       type: "podcast"
+    },
+    {
+      title: "Davos: Adi Godrej",
+      url: "https://www.youtube.com/watch?v=6Cv_HcEdhLI",
+      thumbnail: "https://img.youtube.com/vi/6Cv_HcEdhLI/maxresdefault.jpg",
+      type: "video"
+    },
+    {
+      title: "Davos: Prof. Haussman",
+      url: "https://www.youtube.com/watch?v=gg05B3_soH0",
+      thumbnail: "https://img.youtube.com/vi/gg05B3_soH0/maxresdefault.jpg",
+      type: "video"
     }
   ];
 
