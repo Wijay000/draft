@@ -18,7 +18,7 @@ export default function Home() {
         </p>
         
         <p className="text-2xl md:text-3xl lg:text-4xl text-gray-700">
-          You just have to start with clarity.
+          You just have to start with <span className="font-bold text-[#b80a2c]">clarity</span>.
         </p>
       </motion.div>
     </div>
