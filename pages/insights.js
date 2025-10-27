@@ -127,7 +127,7 @@ export default function Insights() {
 
       {/* All Other Articles */}
       <section>
-        <h2 className="text-2xl font-bold text-gray-900 mb-6">All Articles</h2>
+        <h2 className="text-2xl font-bold text-gray-900 mb-6">Read More</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 sm:gap-6 lg:gap-8">
           {posts.map((post) => (
             <a
