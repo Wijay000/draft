@@ -109,7 +109,7 @@ export default function Insights() {
           href={featuredPost.url}
           target="_blank"
           rel="noopener noreferrer"
-          className="block group rounded-lg border-2 border-[#b80a2c] p-8 hover:shadow-xl transition-all bg-gradient-to-br from-white to-gray-50"
+          className="block group rounded-lg shadow-lg hover:shadow-2xl p-8 transition-all bg-gradient-to-br from-white to-gray-50"
         >
           <h3 className="text-2xl sm:text-3xl font-bold text-gray-900 group-hover:text-[#b80a2c] transition-colors mb-4">
             {featuredPost.title}
