@@ -30,13 +30,13 @@ export default function Ideas() {
       title: "WEF: Global Shapers ACM 2016",
       url: "https://www.youtube.com/results?search_query=ACM+Plenary+vijay",
       thumbnail: "https://www.weforum.org/assets/logo/header.svg",
-      type: "video"
+      type: "talk"
     },
     {
       title: "Davos: Adi Godrej",
       url: "https://www.youtube.com/watch?v=6Cv_HcEdhLI",
       thumbnail: "https://www.weforum.org/assets/logo/header.svg",
-      type: "video"
+      type: "talk"
     },
     {
       title: "Cannes Lions: The AI Disruption",
