@@ -30,27 +30,69 @@ export default function Insights() {
       date: "",
       description: "",
       url: "https://medium.com/@innovate_11669/innovation-requires-perseverance-and-creativity-5fa9fe0dba44"
+    },
+    {
+      title: "To innovate, stay away from frameworks and methodologies",
+      date: "",
+      description: "",
+      url: "https://medium.com/@innovate_11669/to-innovate-stay-away-from-frameworks-and-methodologies-35438ae63d80"
+    },
+    {
+      title: "Innovation doesn't excite everyone",
+      date: "",
+      description: "",
+      url: "https://medium.com/@innovate_11669/innovation-doesnt-excite-everyone-f11183dcb604"
+    },
+    {
+      title: "A meditative conversation with chatGPT",
+      date: "",
+      description: "",
+      url: "https://medium.com/@vgthinks/a-meditative-conversation-with-my-friend-on-meditation-cd5249e7fe0f"
+    },
+    {
+      title: "Innovation as an inner journey",
+      date: "",
+      description: "",
+      url: "https://lnkd.in/ePP7pBZJ"
+    },
+    {
+      title: "To leverage technology, listen to the user",
+      date: "",
+      description: "",
+      url: "https://www.linkedin.com/pulse/leverage-technology-listen-being-who-has-problem-observe-raju/?trackingId=rThVEw4mEF8OOahWRo3uiQ%3D%3D"
+    },
+    {
+      title: "Are humans going to subdue or surrender to AI?",
+      date: "",
+      description: "",
+      url: "https://www.linkedin.com/pulse/ai-humans-going-subdue-surrender-new-phenomenon-vijay-anand-raju/?trackingId=hIuzvnako84mhFRBnGf3cw%3D%3D"
     }
   ];
 
   return (
-    <div className="max-w-2xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-      <header className="mb-12 text-center">
-        <h1 className="text-4xl font-bold text-gray-900 mb-2">Insights</h1>
-        <p className="text-lg text-gray-600">Ideas, essays, and resources on leadership, innovation, and impact.</p>
+    <div className="max-w-2xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16">
+      <header className="mb-10 sm:mb-12 text-center">
+        <h1 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-2">Insights</h1>
+        <p className="text-base sm:text-lg text-gray-600">Ideas essays, and resources on Leadership, Innovation and AI.</p>
       </header>
-      <section className="flex flex-col gap-8">
+      <section className="flex flex-col gap-6 sm:gap-8">
         {posts.map((post, idx) => (
           <a
             key={post.title}
             href={post.url}
-            className="block group border-b border-gray-200 pb-6 hover:bg-gray-50 transition rounded-lg px-4 -mx-4"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="block group border-b border-gray-200 pb-5 sm:pb-6 hover:bg-gray-50 transition rounded-lg px-4 -mx-4"
           >
-            <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-2">
-              <h2 className="text-2xl font-semibold text-gray-900 group-hover:text-[#b80a2c] transition-colors">{post.title}</h2>
-              <span className="text-sm text-gray-500 mt-1 sm:mt-0">{post.date}</span>
+            <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-1.5 sm:mb-2">
+              <h2 className="text-xl sm:text-2xl font-semibold text-gray-900 group-hover:text-[#b80a2c] transition-colors break-words leading-snug">{post.title}</h2>
+              {post.date && (
+                <span className="text-xs sm:text-sm text-gray-500 mt-1 sm:mt-0">{post.date}</span>
+              )}
             </div>
-            <p className="text-gray-700 text-base mt-1">{post.description}</p>
+            {post.description && (
+              <p className="text-gray-700 text-sm sm:text-base mt-1">{post.description}</p>
+            )}
           </a>
         ))}
       </section>
