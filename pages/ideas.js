@@ -29,7 +29,7 @@ export default function Ideas() {
     {
       title: "WEF: Global Shapers ACM 2016",
       url: "https://www.youtube.com/results?search_query=ACM+Plenary+vijay",
-      thumbnail: "https://www.weforum.org/assets/logo/header.svg",
+      thumbnail: "/images/Ideas - WEF.jpg",
       type: "talk"
     },
     {
