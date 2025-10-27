@@ -37,6 +37,12 @@ export default function Ideas() {
       url: "https://www.youtube.com/watch?v=gg05B3_soH0",
       thumbnail: "https://img.youtube.com/vi/gg05B3_soH0/maxresdefault.jpg",
       type: "video"
+    },
+    {
+      title: "WEF: Global Shapers ACM 2016",
+      url: "https://www.youtube.com/results?search_query=ACM+Plenary+vijay",
+      thumbnail: "https://img.youtube.com/vi/default/maxresdefault.jpg",
+      type: "video"
     }
   ];
 
