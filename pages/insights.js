@@ -72,6 +72,24 @@ export default function Insights() {
       date: "",
       description: "",
       url: "https://www.weforum.org/stories/2015/06/problem-paradaox-2-social-innovations-that-have-changed-india/"
+    },
+    {
+      title: "6 reflections from a WEF Fellow",
+      date: "",
+      description: "",
+      url: "https://www.huffpost.com/archive/in/entry/6-reflections-from-a-global-leadership-program_b_7702632"
+    },
+    {
+      title: "Can drones protect Indian women?",
+      date: "",
+      description: "",
+      url: "https://www.weforum.org/stories/2016/09/could-drones-protect-india-s-women-from-rapists/"
+    },
+    {
+      title: "3 business model shifts",
+      date: "",
+      description: "",
+      url: "https://www.weforum.org/stories/2015/06/3-shifts-caused-by-the-new-wave-of-entrepreneurs/"
     }
   ];
 
