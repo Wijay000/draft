@@ -75,23 +75,23 @@ export default function Insights() {
         <h1 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-2">Insights</h1>
         <p className="text-base sm:text-lg text-gray-600">Ideas, essays and perspectives on leadership, innovation and artificial intelligence.</p>
       </header>
-      <section className="flex flex-col gap-6 sm:gap-8">
-        {posts.map((post, idx) => (
+      <section className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 sm:gap-6 lg:gap-8">
+        {posts.map((post) => (
           <a
             key={post.title}
             href={post.url}
             target="_blank"
             rel="noopener noreferrer"
-            className="block group border-b border-gray-200 pb-5 sm:pb-6 transition px-0 sm:px-0"
+            className="block group rounded-lg border border-gray-200 p-5 hover:shadow-md transition-colors"
           >
-            <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-1.5 sm:mb-2">
-              <h2 className="text-xl sm:text-2xl font-semibold text-gray-900 group-hover:text-[#b80a2c] transition-colors break-words leading-snug underline-offset-4 group-hover:underline">{post.title}</h2>
-              {post.date && (
-                <span className="text-xs sm:text-sm text-gray-500 mt-1 sm:mt-0">{post.date}</span>
-              )}
-            </div>
+            <h2 className="text-lg sm:text-xl font-semibold text-gray-900 group-hover:text-[#b80a2c] transition-colors break-words leading-snug">
+              {post.title}
+            </h2>
+            {post.date && (
+              <p className="text-xs sm:text-sm text-gray-500 mt-1">{post.date}</p>
+            )}
             {post.description && (
-              <p className="text-gray-700 text-sm sm:text-base mt-1">{post.description}</p>
+              <p className="text-gray-700 text-sm sm:text-base mt-2">{post.description}</p>
             )}
           </a>
         ))}
