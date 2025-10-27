@@ -149,7 +149,7 @@ export default function Insights() {
                 <p className="text-xs sm:text-sm text-gray-500 mt-1">{post.date}</p>
               )}
               {post.description && (
-                <p className="text-gray-700 text-sm sm:text-base mt-2">{post.description}</p>
+                <p className="text-gray-700 text-sm sm:text-base mt-2 line-clamp-2">{post.description}</p>
               )}
             </a>
           ))}
