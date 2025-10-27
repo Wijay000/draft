@@ -142,7 +142,7 @@ export default function Insights() {
               rel="noopener noreferrer"
               className="block group rounded-lg border border-gray-200 p-5 shadow-md hover:shadow-xl transition-all"
             >
-              <h2 className="text-lg sm:text-xl font-semibold text-gray-900 group-hover:text-[#b80a2c] transition-colors break-words leading-snug line-clamp-2 min-h-[3.5rem]">
+              <h2 className="text-lg sm:text-xl font-semibold text-gray-900 group-hover:text-[#b80a2c] transition-colors leading-snug line-clamp-2 min-h-[3.5rem] max-w-[15ch] sm:max-w-[18ch]">
                 {post.title}
               </h2>
               {post.date && (
