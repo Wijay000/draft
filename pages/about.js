@@ -8,7 +8,7 @@ export default function About() {
         animate={{ opacity: 1, y: 0 }}
         className="text-center mb-12"
       >
-        <div className="mb-8">
+        <div className="mb-8 mt-6">
           <img
             src="/images/Vijay - Bio.jpg"
             alt="Vijay A. Raju"
