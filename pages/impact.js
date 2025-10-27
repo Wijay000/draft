@@ -38,7 +38,7 @@ export default function Impact() {
       ]
     },
     {
-      title: "Business Model Innovation",
+      title: "Business Model Innovation in Asia",
       sections: [
         {
           heading: "Context",
@@ -63,7 +63,7 @@ export default function Impact() {
       ]
     },
     {
-      title: "Social Innovation",
+      title: "Social Innovation in Mexico and Brazil",
       sections: [
         {
           heading: "Context",
@@ -88,7 +88,7 @@ export default function Impact() {
       ]
     },
     {
-      title: "Mature Job Seekers in the UK",
+      title: "Innovating for mature job seekers in UK",
       sections: [
         {
           heading: "Context",
