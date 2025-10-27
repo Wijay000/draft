@@ -65,7 +65,7 @@ export default function Impact() {
     },
     {
       title: "Social Innovation in Mexico and Brazil",
-      image: "🌎", // Latin America/Global impact
+      image: "/images/Impact - MC.jpeg", // Using specific MC image
       sections: [
         {
           heading: "Context",
@@ -117,7 +117,7 @@ export default function Impact() {
     },
     {
       title: "Responsible Innovation for a cleaner Geneva",
-      image: "🇨🇭", // Swiss flag for Geneva
+      image: "/images/Impact - Cig.jpeg", // Using specific Cig image
       sections: [
         {
           heading: "Context",
@@ -169,7 +169,7 @@ export default function Impact() {
     },
     {
       title: "Obesity Innovation Lab",
-      image: "🔬", // Lab/Research themed
+      image: "/images/Impact - OIL.jpg", // Using specific OIL image
       sections: [
         {
           heading: "Context",
