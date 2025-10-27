@@ -9,16 +9,16 @@ export default function Ideas() {
       type: "video"
     },
     {
-      title: "DLC Talks: Responsible Innovation",
-      url: "https://www.youtube.com/watch?v=xx6_3oSlVcc&t=2s",
-      thumbnail: "https://img.youtube.com/vi/xx6_3oSlVcc/maxresdefault.jpg",
-      type: "video"
-    },
-    {
       title: "Book: A selfie with words",
       url: "https://www.amazon.com/Selfie-Words-Exploration-Global-Leadership/dp/B0CPYJWX4P",
       thumbnail: "https://m.media-amazon.com/images/I/71VDZs3VGLL._SY522_.jpg",
       type: "book"
+    },
+    {
+      title: "DLC Talks: Responsible Innovation",
+      url: "https://www.youtube.com/watch?v=xx6_3oSlVcc&t=2s",
+      thumbnail: "https://img.youtube.com/vi/xx6_3oSlVcc/maxresdefault.jpg",
+      type: "video"
     }
   ];
 
@@ -32,9 +32,6 @@ export default function Ideas() {
         <h1 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
           Ideas
         </h1>
-        <p className="text-base sm:text-xl text-gray-600 max-w-3xl mx-auto">
-          Fresh perspectives and innovative approaches to drive meaningful change.
-        </p>
       </motion.div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
