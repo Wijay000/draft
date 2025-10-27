@@ -6,7 +6,7 @@ export default function Ideas() {
       title: "TEDx: Leadership as a space",
       url: "https://www.youtube.com/watch?v=jwSb0RI9inQ&t=33s",
       thumbnail: "/images/Ideas - TEDx.jpeg",
-      type: "video"
+      type: "talk"
     },
     {
       title: "Book: A selfie with words",
