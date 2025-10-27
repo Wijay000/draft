@@ -29,19 +29,19 @@ export default function Ideas() {
     {
       title: "Davos: Adi Godrej",
       url: "https://www.youtube.com/watch?v=6Cv_HcEdhLI",
-      thumbnail: "https://img.youtube.com/vi/6Cv_HcEdhLI/hqdefault.jpg",
+      thumbnail: "https://www.weforum.org/assets/logo/header.svg",
       type: "video"
     },
     {
       title: "Davos: Prof. Haussman",
       url: "https://www.youtube.com/watch?v=gg05B3_soH0",
-      thumbnail: "https://img.youtube.com/vi/gg05B3_soH0/hqdefault.jpg",
+      thumbnail: "https://www.weforum.org/assets/logo/header.svg",
       type: "video"
     },
     {
       title: "WEF: Global Shapers ACM 2016",
       url: "https://www.youtube.com/results?search_query=ACM+Plenary+vijay",
-      thumbnail: "https://img.youtube.com/vi/default/hqdefault.jpg",
+      thumbnail: "https://www.weforum.org/assets/logo/header.svg",
       type: "video"
     }
   ];
