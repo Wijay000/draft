@@ -11,7 +11,7 @@ export default function Ideas() {
     {
       title: "Book: A selfie with words",
       url: "https://www.amazon.com/Selfie-Words-Exploration-Global-Leadership/dp/B0CPYJWX4P",
-      thumbnail: "https://m.media-amazon.com/images/I/71VDZs3VGLL._SY522_.jpg",
+      thumbnail: "/images/Book.jpeg",
       type: "book"
     },
     {
