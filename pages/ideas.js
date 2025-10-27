@@ -33,7 +33,7 @@ export default function Ideas() {
       type: "talk"
     },
     {
-      title: "Davos: Adi Godrej",
+      title: "Davos: Interview with Adi Godrej",
       url: "https://www.youtube.com/watch?v=6Cv_HcEdhLI",
       thumbnail: "/images/Ideas - Davos1.jpg",
       type: "talk"
@@ -45,7 +45,7 @@ export default function Ideas() {
       type: "article"
     },
     {
-      title: "Davos: Prof. Haussman",
+      title: "Davos: Interview with Prof. Hausmann",
       url: "https://www.youtube.com/watch?v=gg05B3_soH0",
       thumbnail: "/images/Ideas - Davos2.jpg",
       type: "talk"
