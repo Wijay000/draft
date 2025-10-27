@@ -16,6 +16,9 @@ export default function About() {
           />
         </div>
         <div className="flex flex-col items-center justify-center gap-2">
+          <h1 className="text-4xl font-bold text-gray-900">
+            Vijay A. Raju
+          </h1>
           <a
             href="https://www.linkedin.com/in/vijay-a-raju-3083743/"
             target="_blank"
