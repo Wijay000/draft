@@ -18,14 +18,14 @@ export default function Layout({ children }) {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center py-4">
             {/* Left: Name */}
-            <div className="flex items-center space-x-8 flex-1">
+            <div className="flex items-center">
               <Link href="/about">
                 <span className="text-lg font-medium hover:text-primary transition-colors" style={{ fontSize: '18px' }}>Vijay A. Raju</span>
               </Link>
             </div>
 
-            {/* Center: Home Icon */}
-            <div className="flex justify-center flex-1">
+            {/* Right: Home Icon and Menu Icon */}
+            <div className="flex items-center space-x-4">
               <Link href="/">
                 <div className="w-12 h-12 rounded-full bg-white shadow-md hover:shadow-lg transition-all flex items-center justify-center text-primary hover:text-primary/80">
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -33,10 +33,7 @@ export default function Layout({ children }) {
                   </svg>
                 </div>
               </Link>
-            </div>
-
-            {/* Right: Menu Icon */}
-            <div className="flex justify-end flex-1">
+              
               <button
                 onClick={() => setIsMenuOpen(!isMenuOpen)}
                 className="w-12 h-12 rounded-full bg-white shadow-md hover:shadow-lg transition-all flex items-center justify-center text-gray-700 hover:text-primary"
