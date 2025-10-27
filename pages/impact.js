@@ -136,6 +136,31 @@ export default function Impact() {
           links: []
         }
       ]
+    },
+    {
+      title: "Building AI Capabilities",
+      sections: [
+        {
+          heading: "Context",
+          content: "The Client, a medium sized medtech company, was seeking new ways to accelerate growth in its core business. With decades of market leadership and deep reach across its geography, the company was now facing a wave of disruption. New competitors were using AI and emerging technologies to innovate faster and operate more intelligently. The Client recognized that sustaining growth would require more than digital adoption. It needed to reshape its systems, workflows, and culture to compete in a world where intelligence is distributed across people, platforms, and processes.",
+          links: []
+        },
+        {
+          heading: "Challenge",
+          content: "The challenge lay in reimagining a successful but traditional enterprise to be adaptive, connected, and future-ready. The organization's core systems were efficient yet rigid, optimized for predictability rather than change. Leadership wanted to understand how AI could drive coordination across business units instead of simply automating existing tasks. The goal was to build an enterprise that learns continuously, coordinates dynamically, and makes better decisions without losing its human touch or ethical compass.",
+          links: []
+        },
+        {
+          heading: "Approach",
+          content: "As an advisor, I worked closely with senior executives to design a systems approach to transformation. We began by mapping how information, decisions, and value flowed across the company. This revealed systemic constraints — where knowledge was trapped in silos, where coordination lagged, and where opportunities for intelligent automation existed. We then introduced AI and data capabilities not as replacements for human decision-making but as amplifiers of it. Pilot programs were launched to rewire workflows, enabling people and machines to collaborate in real time. New governance models ensured that data use remained transparent and aligned with organizational purpose. The focus shifted from automation to coordination — building connective intelligence across functions and markets.",
+          links: []
+        },
+        {
+          heading: "Impact",
+          content: "The transformation delivered results that went far beyond efficiency. Decision cycles became shorter, innovation teams started sharing insights across regions, and customer engagement grew through more responsive, data-informed services. Employees reported higher confidence in using AI as a thinking partner rather than a threat. The initiative is now being scaled across multiple markets, helping the organization evolve from a traditional hierarchy into a learning network. What began as an effort to modernize technology became a journey in redesigning how people, systems, and intelligence work together to create lasting value.",
+          links: []
+        }
+      ]
     }
   ]
 
