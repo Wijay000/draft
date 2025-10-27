@@ -73,7 +73,7 @@ export default function Insights() {
     <div className="max-w-2xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16">
       <header className="mb-10 sm:mb-12 text-center">
         <h1 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-2">Insights</h1>
-        <p className="text-base sm:text-lg text-gray-600">Ideas essays, and resources on Leadership, Innovation and AI.</p>
+        <p className="text-base sm:text-lg text-gray-600">Ideas, essays and perspectives on leadership, innovation and artificial intelligence.</p>
       </header>
       <section className="flex flex-col gap-6 sm:gap-8">
         {posts.map((post, idx) => (
@@ -82,10 +82,10 @@ export default function Insights() {
             href={post.url}
             target="_blank"
             rel="noopener noreferrer"
-            className="block group border-b border-gray-200 pb-5 sm:pb-6 hover:bg-gray-50 transition rounded-lg px-4 -mx-4"
+            className="block group border-b border-gray-200 pb-5 sm:pb-6 transition px-0 sm:px-0"
           >
             <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-1.5 sm:mb-2">
-              <h2 className="text-xl sm:text-2xl font-semibold text-gray-900 group-hover:text-[#b80a2c] transition-colors break-words leading-snug">{post.title}</h2>
+              <h2 className="text-xl sm:text-2xl font-semibold text-gray-900 group-hover:text-[#b80a2c] transition-colors break-words leading-snug underline-offset-4 group-hover:underline">{post.title}</h2>
               {post.date && (
                 <span className="text-xs sm:text-sm text-gray-500 mt-1 sm:mt-0">{post.date}</span>
               )}
