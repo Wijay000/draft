@@ -10,7 +10,7 @@ export default function About() {
       >
         <div className="mb-8">
           <img
-            src="https://media.licdn.com/dms/image/v2/C5103AQHhXzfQ_9LWTA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1517495756294?e=1735776000&v=beta&t=7wYWZxQxJxQxJxQxJxQxJxQxJxQxJxQxJxQxJxQxJxQ"
+            src="/images/Vijay-Bio.png"
             alt="Vijay A. Raju"
             className="w-48 h-48 rounded-full mx-auto object-cover shadow-lg"
           />
