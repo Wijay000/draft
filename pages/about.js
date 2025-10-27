@@ -100,17 +100,31 @@ export default function About() {
           Testimonials
         </h2>
         
-        <div className="bg-gray-50 rounded-lg p-8 shadow-md">
-          <p className="text-lg leading-relaxed text-gray-700 mb-6 italic">
-            "I consider myself extremely lucky. One primary reason is that I have had the privilege of learning from so many smart people.
-          </p>
-          <p className="text-lg leading-relaxed text-gray-700 mb-6 italic">
-            From 2007 to 2009, a small group of people at Innosight, under the leadership of Brad Gambill, dedicated their lives to the hard work of incubating new businesses. Brad, Hari Nair, George Tattersfield, Alasdair Trotter, Kuen Loon Ho, Dheeraj Batra, Elnor Rozenrot, Dan Gay, and Vijay Raju in particular taught me an inordinate amount about what life is really like in innovation's first mile."
-          </p>
-          <div className="flex items-center justify-end">
-            <div className="text-right">
-              <p className="font-semibold text-gray-900">Scott Anthony</p>
-              <p className="text-sm text-gray-600">Ranked #7 in Thinkers50 list</p>
+        <div className="space-y-6">
+          <div className="bg-gray-50 rounded-lg p-8 shadow-md">
+            <p className="text-lg leading-relaxed text-gray-700 mb-6 italic">
+              "I consider myself extremely lucky. One primary reason is that I have had the privilege of learning from so many smart people.
+            </p>
+            <p className="text-lg leading-relaxed text-gray-700 mb-6 italic">
+              From 2007 to 2009, a small group of people at Innosight, under the leadership of Brad Gambill, dedicated their lives to the hard work of incubating new businesses. Brad, Hari Nair, George Tattersfield, Alasdair Trotter, Kuen Loon Ho, Dheeraj Batra, Elnor Rozenrot, Dan Gay, and Vijay Raju in particular taught me an inordinate amount about what life is really like in innovation's first mile."
+            </p>
+            <div className="flex items-center justify-end">
+              <div className="text-right">
+                <p className="font-semibold text-gray-900">Scott Anthony</p>
+                <p className="text-sm text-gray-600">Ranked #7 in Thinkers50 list</p>
+              </div>
+            </div>
+          </div>
+
+          <div className="bg-gray-50 rounded-lg p-8 shadow-md">
+            <p className="text-lg leading-relaxed text-gray-700 mb-6 italic">
+              "Vijay is as creative and innovative thinker as I have come across in my career. What sets him apart is ability to quickly get in the market and test out key assumptions and gather market insights around the consumer job to be done"
+            </p>
+            <div className="flex items-center justify-end">
+              <div className="text-right">
+                <p className="font-semibold text-gray-900">Hari Nair</p>
+                <p className="text-sm text-gray-600">Vice President, R&D Fabric & Home Care Global Packaging, Learning Lab and Partner Lab at Procter & Gamble, Co-Author The Innovative Leader</p>
+              </div>
             </div>
           </div>
         </div>
