@@ -17,7 +17,7 @@ export default function Ideas() {
     {
       title: "Podcast: Innovation as an Inner journey",
       url: "https://creators.spotify.com/pod/profile/fluid-labs/episodes/Innovation-As-A-Inner-Journey-e2bhrbb/a-aa50an7",
-      thumbnail: "/images/Ideas - Inner Journey.jpeg",
+      thumbnail: "/images/Ideas - Podcast.jpeg",
       type: "podcast"
     },
     {
