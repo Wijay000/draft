@@ -91,7 +91,7 @@ export default function Impact() {
     },
     {
       title: "Innovating for mature job seekers in UK",
-      image: "🇬🇧", // UK flag for location
+      image: "/images/Impact - MW.jpg", // Using specific MW image
       sections: [
         {
           heading: "Context",
@@ -220,15 +220,17 @@ export default function Impact() {
             className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow flex flex-col"
           >
             {/* Image/Icon above each card */}
-            <div className="flex justify-center items-center p-6 bg-gray-50">
+            <div className="bg-gray-50">
               {story.image.startsWith('/') ? (
                 <img
                   src={story.image}
                   alt={story.title}
-                  className="w-24 h-24 object-cover rounded-lg shadow-md"
+                  className="w-full h-32 object-cover"
                 />
               ) : (
-                <div className="text-6xl">{story.image}</div>
+                <div className="flex justify-center items-center p-6">
+                  <div className="text-6xl">{story.image}</div>
+                </div>
               )}
             </div>
             
