@@ -52,6 +52,31 @@ export default function Impact() {
           links: []
         }
       ]
+    },
+    {
+      title: "Social Innovation",
+      sections: [
+        {
+          heading: "Context",
+          content: "In the heart of Mexico, many communities struggle with poverty, violence, and migration. For young people, these pressures often limit education and opportunity, leaving them feeling unseen and uncertain about their future. As Entrepreneur in Residence at The Adecco Group, I conceptualized and launched a portfolio of social business initiatives to expand access to opportunity. Working with the Innovation Foundation and YouthBuild México, I explored how entrepreneurship and human-centered innovation could unlock potential in these communities. Together, we partnered with SkillLab's Evidence 4 Impact initiative to combine technology and social purpose.",
+          links: []
+        },
+        {
+          heading: "Challenge",
+          content: "We set out to answer one question: how might we help young mothers reclaim confidence, skills, and dignity while facing complex social and economic challenges? Traditional job programs were too narrow and failed to see the whole person behind the statistics. These women needed more than training; they needed tools, belief, and a pathway to reimagine what was possible for their lives and families.",
+          links: []
+        },
+        {
+          heading: "Approach",
+          content: "We designed Mamas Chingonas, a program that empowers young mothers to discover their strengths and build careers with confidence. Through workshops, mentoring, and digital tools like the SkillLab app, participants assessed their skills, created professional profiles, and connected to opportunities that matched their aspirations. One of the most inspiring journeys was that of Laura, a 29-year-old mother who once believed she had only two employable skills. Using SkillLab, she realized she had dozens. She helped peers write their resumes, gained leadership confidence, and created a professional CV that opened new doors. Within a month of completing the program, she was promoted to area manager in her new job, citing SkillLab as her secret advantage.",
+          links: []
+        },
+        {
+          heading: "Impact",
+          content: "Through programs like Mamas Chingonas and its sister initiative Vou Brotar in Brazil, the collaboration between The Adecco Group's Innovation Foundation, YouthBuild México, and SkillLab has shown how social innovation can create real transformation. Dozens of young mothers like Laura have found meaningful employment, pursued education, and regained a sense of agency in their lives. Beyond employment, the program restored something deeper: pride, hope, and the belief that every skill, when recognized and nurtured, can shape a better future.",
+          links: []
+        }
+      ]
     }
   ]
 
