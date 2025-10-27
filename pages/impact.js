@@ -13,26 +13,26 @@ export default function Impact() {
   }
   const impactStories = [
     {
-      title: "Building the Global Shapers Community",
+      title: "Building AI Capabilities",
       sections: [
         {
           heading: "Context",
-          content: "In a world where more than half of the global population is under 30, young leaders faced a paradox: they held the future, yet had too little influence in shaping it. The Forum recognized this gap and sought a way to amplify youth voices, not just through talk, but through action.",
-          links: ["globalshapers.org", "World Economic Forum"]
+          content: "The Client, a medium sized medtech company, was seeking new ways to accelerate growth in its core business. With decades of market leadership and deep reach across its geography, the company was now facing a wave of disruption. New competitors were using AI and emerging technologies to innovate faster and operate more intelligently. The Client recognized that sustaining growth would require more than digital adoption. It needed to reshape its systems, workflows, and culture to compete in a world where intelligence is distributed across people, platforms, and processes.",
+          links: []
         },
         {
           heading: "Challenge",
-          content: "How do you create a meaningful platform that empowers young voices across cities worldwide, from Dhaka to Detroit, to lead local change, while connecting them to a global network of peers and resources? The barriers were high: age, geography, lack of access to decision-making, and limited infrastructure for youth-led action.",
-          links: ["World Economic Forum"]
+          content: "The challenge lay in reimagining a successful but traditional enterprise to be adaptive, connected, and future-ready. The organization's core systems were efficient yet rigid, optimized for predictability rather than change. Leadership wanted to understand how AI could drive coordination across business units instead of simply automating existing tasks. The goal was to build an enterprise that learns continuously, coordinates dynamically, and makes better decisions without losing its human touch or ethical compass.",
+          links: []
         },
         {
           heading: "Approach",
-          content: "A youth-led hub model was developed: in each city, elected Shapers created local projects, formed autonomous Hubs, and connected to the global WEF platform. The design emphasised ownership, local relevance, and global learning. Members under 30 were invited to apply, run projects, innovate in their communities, and connect with peers world-wide.",
-          links: ["Medium", "World Economic Forum"]
+          content: "As an advisor, I worked closely with senior executives to design a systems approach to transformation. We began by mapping how information, decisions, and value flowed across the company. This revealed systemic constraints — where knowledge was trapped in silos, where coordination lagged, and where opportunities for intelligent automation existed. We then introduced AI and data capabilities not as replacements for human decision-making but as amplifiers of it. Pilot programs were launched to rewire workflows, enabling people and machines to collaborate in real time. New governance models ensured that data use remained transparent and aligned with organizational purpose. The focus shifted from automation to coordination — building connective intelligence across functions and markets.",
+          links: []
         },
         {
           heading: "Impact",
-          content: "From its launch, the Global Shapers network expanded to over 500 Hubs in more than 150 countries and engaged tens of thousands of young change-makers. These Hubs have delivered local solutions addressing climate, skills, digital inclusion and more. The network plays a unique role in bridging local innovation with global influence.",
+          content: "The transformation delivered results that went far beyond efficiency. Decision cycles became shorter, innovation teams started sharing insights across regions, and customer engagement grew through more responsive, data-informed services. Employees reported higher confidence in using AI as a thinking partner rather than a threat. The initiative is now being scaled across multiple markets, helping the organization evolve from a traditional hierarchy into a learning network. What began as an effort to modernize technology became a journey in redesigning how people, systems, and intelligence work together to create lasting value.",
           links: []
         }
       ]
@@ -138,26 +138,26 @@ export default function Impact() {
       ]
     },
     {
-      title: "Building AI Capabilities",
+      title: "Building the Global Shapers Community",
       sections: [
         {
           heading: "Context",
-          content: "The Client, a medium sized medtech company, was seeking new ways to accelerate growth in its core business. With decades of market leadership and deep reach across its geography, the company was now facing a wave of disruption. New competitors were using AI and emerging technologies to innovate faster and operate more intelligently. The Client recognized that sustaining growth would require more than digital adoption. It needed to reshape its systems, workflows, and culture to compete in a world where intelligence is distributed across people, platforms, and processes.",
-          links: []
+          content: "In a world where more than half of the global population is under 30, young leaders faced a paradox: they held the future, yet had too little influence in shaping it. The Forum recognized this gap and sought a way to amplify youth voices, not just through talk, but through action.",
+          links: ["globalshapers.org", "World Economic Forum"]
         },
         {
           heading: "Challenge",
-          content: "The challenge lay in reimagining a successful but traditional enterprise to be adaptive, connected, and future-ready. The organization's core systems were efficient yet rigid, optimized for predictability rather than change. Leadership wanted to understand how AI could drive coordination across business units instead of simply automating existing tasks. The goal was to build an enterprise that learns continuously, coordinates dynamically, and makes better decisions without losing its human touch or ethical compass.",
-          links: []
+          content: "How do you create a meaningful platform that empowers young voices across cities worldwide, from Dhaka to Detroit, to lead local change, while connecting them to a global network of peers and resources? The barriers were high: age, geography, lack of access to decision-making, and limited infrastructure for youth-led action.",
+          links: ["World Economic Forum"]
         },
         {
           heading: "Approach",
-          content: "As an advisor, I worked closely with senior executives to design a systems approach to transformation. We began by mapping how information, decisions, and value flowed across the company. This revealed systemic constraints — where knowledge was trapped in silos, where coordination lagged, and where opportunities for intelligent automation existed. We then introduced AI and data capabilities not as replacements for human decision-making but as amplifiers of it. Pilot programs were launched to rewire workflows, enabling people and machines to collaborate in real time. New governance models ensured that data use remained transparent and aligned with organizational purpose. The focus shifted from automation to coordination — building connective intelligence across functions and markets.",
-          links: []
+          content: "A youth-led hub model was developed: in each city, elected Shapers created local projects, formed autonomous Hubs, and connected to the global WEF platform. The design emphasised ownership, local relevance, and global learning. Members under 30 were invited to apply, run projects, innovate in their communities, and connect with peers world-wide.",
+          links: ["Medium", "World Economic Forum"]
         },
         {
           heading: "Impact",
-          content: "The transformation delivered results that went far beyond efficiency. Decision cycles became shorter, innovation teams started sharing insights across regions, and customer engagement grew through more responsive, data-informed services. Employees reported higher confidence in using AI as a thinking partner rather than a threat. The initiative is now being scaled across multiple markets, helping the organization evolve from a traditional hierarchy into a learning network. What began as an effort to modernize technology became a journey in redesigning how people, systems, and intelligence work together to create lasting value.",
+          content: "From its launch, the Global Shapers network expanded to over 500 Hubs in more than 150 countries and engaged tens of thousands of young change-makers. These Hubs have delivered local solutions addressing climate, skills, digital inclusion and more. The network plays a unique role in bridging local innovation with global influence.",
           links: []
         }
       ]
