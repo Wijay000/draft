@@ -92,6 +92,12 @@ export default function Insights() {
       date: "",
       description: "",
       url: "https://www.weforum.org/stories/2015/06/3-shifts-caused-by-the-new-wave-of-entrepreneurs/"
+    },
+    {
+      title: "Freedom to innovate",
+      date: "",
+      description: "",
+      url: "https://www.linkedin.com/pulse/20140813185037-9856952-freedom-to-innovate/?trackingId=jXFIGGspQ2GXkUhdFdKb%2Fg%3D%3D"
     }
   ];
 
