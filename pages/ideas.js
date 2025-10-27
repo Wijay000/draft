@@ -19,6 +19,12 @@ export default function Ideas() {
       url: "https://www.youtube.com/watch?v=xx6_3oSlVcc&t=2s",
       thumbnail: "https://img.youtube.com/vi/xx6_3oSlVcc/maxresdefault.jpg",
       type: "video"
+    },
+    {
+      title: "Podcast: Innovation as an Inner journey",
+      url: "https://creators.spotify.com/pod/profile/fluid-labs/episodes/Innovation-As-A-Inner-Journey-e2bhrbb/a-aa50an7",
+      thumbnail: "https://i.scdn.co/image/ab6765630000ba8a7c5c3f834c4e4d1f4e3f5e8a",
+      type: "podcast"
     }
   ];
 
@@ -46,7 +52,7 @@ export default function Ideas() {
             transition={{ delay: index * 0.2 }}
             className="group block rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-all"
           >
-            <div className={`relative bg-gray-100 ${item.type === 'video' ? 'aspect-video' : 'aspect-[2/3]'}`}>
+            <div className={`relative bg-gray-100 ${item.type === 'video' ? 'aspect-video' : item.type === 'podcast' ? 'aspect-square' : 'aspect-[2/3]'}`}>
               <img
                 src={item.thumbnail}
                 alt={item.title}
