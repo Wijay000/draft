@@ -1,18 +1,24 @@
 import { motion } from 'framer-motion'
 
 export default function Ideas() {
-  const videos = [
+  const items = [
     {
       title: "TEDx: Leadership as a space",
       url: "https://www.youtube.com/watch?v=jwSb0RI9inQ&t=33s",
-      videoId: "jwSb0RI9inQ",
-      thumbnail: "https://img.youtube.com/vi/jwSb0RI9inQ/maxresdefault.jpg"
+      thumbnail: "https://img.youtube.com/vi/jwSb0RI9inQ/maxresdefault.jpg",
+      type: "video"
     },
     {
       title: "DLC Talks: Responsible Innovation",
       url: "https://www.youtube.com/watch?v=xx6_3oSlVcc&t=2s",
-      videoId: "xx6_3oSlVcc",
-      thumbnail: "https://img.youtube.com/vi/xx6_3oSlVcc/maxresdefault.jpg"
+      thumbnail: "https://img.youtube.com/vi/xx6_3oSlVcc/maxresdefault.jpg",
+      type: "video"
+    },
+    {
+      title: "Book: A selfie with words",
+      url: "https://www.amazon.com/Selfie-Words-Exploration-Global-Leadership/dp/B0CPYJWX4P",
+      thumbnail: "https://m.media-amazon.com/images/I/71VDZs3VGLL._SY522_.jpg",
+      type: "book"
     }
   ];
 
@@ -31,11 +37,11 @@ export default function Ideas() {
         </p>
       </motion.div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8">
-        {videos.map((video, index) => (
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
+        {items.map((item, index) => (
           <motion.a
-            key={video.videoId}
-            href={video.url}
+            key={index}
+            href={item.url}
             target="_blank"
             rel="noopener noreferrer"
             initial={{ opacity: 0, y: 20 }}
@@ -43,23 +49,25 @@ export default function Ideas() {
             transition={{ delay: index * 0.2 }}
             className="group block rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-all"
           >
-            <div className="relative aspect-video bg-gray-100">
+            <div className={`relative bg-gray-100 ${item.type === 'video' ? 'aspect-video' : 'aspect-[2/3]'}`}>
               <img
-                src={video.thumbnail}
-                alt={video.title}
+                src={item.thumbnail}
+                alt={item.title}
                 className="w-full h-full object-cover group-hover:opacity-90 transition-opacity"
               />
-              <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-0 group-hover:bg-opacity-10 transition-all">
-                <div className="w-16 h-16 bg-red-600 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform">
-                  <svg className="w-8 h-8 text-white ml-1" fill="currentColor" viewBox="0 0 24 24">
-                    <path d="M8 5v14l11-7z"/>
-                  </svg>
+              {item.type === 'video' && (
+                <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-0 group-hover:bg-opacity-10 transition-all">
+                  <div className="w-16 h-16 bg-red-600 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform">
+                    <svg className="w-8 h-8 text-white ml-1" fill="currentColor" viewBox="0 0 24 24">
+                      <path d="M8 5v14l11-7z"/>
+                    </svg>
+                  </div>
                 </div>
-              </div>
+              )}
             </div>
             <div className="p-5 bg-white">
               <h2 className="text-lg sm:text-xl font-semibold text-gray-900 group-hover:text-[#b80a2c] transition-colors">
-                {video.title}
+                {item.title}
               </h2>
             </div>
           </motion.a>
