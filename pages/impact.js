@@ -1,6 +1,5 @@
 import { motion } from 'framer-motion'
 import { useState } from 'react'
-import ChatBot from '../components/ChatBot'
 
 export default function Impact() {
   const [expandedCards, setExpandedCards] = useState({})
@@ -282,10 +281,6 @@ export default function Impact() {
             </div>
           </motion.div>
         ))}
-      </div>
-
-      <div className="mt-12">
-        <ChatBot />
       </div>
     </div>
   )
