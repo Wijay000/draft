@@ -65,7 +65,7 @@ export default function Impact() {
     },
     {
       title: "Social Innovation in Mexico and Brazil",
-      image: "/images/Impact - MC.jpeg", // Using specific MC image
+      image: "/images/Impact - MC.jpg", // Using specific MC image
       sections: [
         {
           heading: "Context",
