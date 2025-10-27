@@ -7,11 +7,11 @@ export default function Interact() {
       title: "Speaking Engagements",
       description: "If you are looking for a keynote speaker or an expert voice for a panel discussion at your event",
       images: [
-        "/images/Interact - WEF.jpg",
-        "/images/Interact - TED.jpg", 
-        "/images/Interact - Cannes.jpg",
-        "/images/Interact - GOYN.jpg",
-        "/images/Interact - SIF.jpg"
+        "/images/Interact - WEF.png",
+        "/images/Interact - TED.png", 
+        "/images/Interact - Cannes.png",
+        "/images/Interact - GOYN.png",
+        "/images/Interact - SIF.png"
       ]
     },
     {
@@ -28,12 +28,11 @@ export default function Interact() {
         animate={{ opacity: 1, y: 0 }}
         className="text-center mb-12"
       >
-        <div className="text-4xl mb-4">🤝</div>
         <h1 className="text-4xl font-bold text-gray-900 mb-4">
           Interact
         </h1>
         <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-          Connect for speaking engagements, advisory services, or collaborative opportunities.
+          Connect for speaking engagements and advisory services
         </p>
       </motion.div>
 
