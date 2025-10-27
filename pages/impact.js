@@ -8,12 +8,12 @@ export default function Impact() {
       sections: [
         {
           heading: "Context",
-          content: "In a world where more than half of the global population is under 30, young people faced a paradox: they held the future, yet had too little influence in shaping it. The Forum recognized this gap and sought a way to amplify youth voices—not just through talk, but through action.",
+          content: "In a world where more than half of the global population is under 30, young leaders faced a paradox: they held the future, yet had too little influence in shaping it. The Forum recognized this gap and sought a way to amplify youth voices, not just through talk, but through action.",
           links: ["globalshapers.org", "World Economic Forum"]
         },
         {
           heading: "Challenge",
-          content: "How do you create a meaningful platform that empowers young voices across cities worldwide—from Dhaka to Detroit—to lead local change, while connecting them to a global network of peers and resources? The barriers were high: age, geography, lack of access to decision-making, and limited infrastructure for youth-led action.",
+          content: "How do you create a meaningful platform that empowers young voices across cities worldwide, from Dhaka to Detroit, to lead local change, while connecting them to a global network of peers and resources? The barriers were high: age, geography, lack of access to decision-making, and limited infrastructure for youth-led action.",
           links: ["World Economic Forum"]
         },
         {
