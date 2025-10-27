@@ -43,79 +43,50 @@ export default function About() {
         transition={{ delay: 0.2 }}
         className="prose prose-lg max-w-none"
       >
-        <p className="text-xl leading-relaxed mb-8">
-          Vijay partners with leading businesses, foundations and philanthropies to drive growth 
-          and impact through responsible innovations. Vijay is also the author of an upcoming book 
-          on entrepreneurs and intrapreneurs who are tackling climate change through innovation. 
-          Vijay is a keynote speaker on <span className="text-blue-600">#leadership</span>
-          <span className="text-blue-600">#creativity</span>
-          <span className="text-blue-600">#innovation</span>
-          <span className="text-blue-600">#sustainability</span> and
-          <span className="text-blue-600">#ai</span>
+        <p className="text-xl leading-relaxed mb-6 italic text-gray-800">
+          The world is moving faster than your next decision.<br />
+          You don't need all the answers. You just have to start with clarity.
         </p>
 
-        <div className="space-y-8">
-          <div>
-            <h2 className="text-2xl font-semibold mb-4">World Economic Forum Leadership</h2>
-            <p className="text-gray-700">
-              Previously, Vijay was the Head of Strategy for the global <span className="text-blue-600">#growth</span> companies 
-              at WEF where he worked with CXOs of 300+ hypergrowth companies and unicorns as well as Heads 
-              of State of leading economies on topics of responsible use of advanced new technologies and 
-              sustainability <span className="text-blue-600">#transformation</span>.
-            </p>
-          </div>
+        <p className="text-lg leading-relaxed mb-6 text-gray-700">
+          I help business leaders, senior executives, startup founders, and leaders in government and nonprofits turn complexity into clarity and innovation into impact. Over the past decade, I have partnered with global companies, foundations, and philanthropies to design and launch strategic initiatives that unite creativity with responsibility.
+        </p>
 
-          <div>
-            <h2 className="text-2xl font-semibold mb-4">Global Shapers Impact</h2>
-            <p className="text-gray-700">
-              Vijay was also the Deputy Head of the Global Shapers Community where he led Shape
-              <span className="text-blue-600">#Sustainability</span>, a social media campaign to take the SDG narrative 
-              from country level to community level and drive local actions in more than 100 cities 
-              in partnership with UN. Vijay designed a climate innovation challenge for Statkraft 
-              of Norway and led 5 editions of the 'Shaping the Better Future' social innovation 
-              challenge in partnership with Coca Cola leading to 100s of social innovation projects. 
-              Vijay also designed Shaping Davos, an innovative format to bring in city level local 
-              voices into <span className="text-blue-600">#Davos</span> conversations.
-            </p>
-          </div>
+        <p className="text-lg leading-relaxed mb-6 text-gray-700">
+          As Head of Strategy at the World Economic Forum, I partnered with CEOs from more than 300 unicorns and hypergrowth companies as well as Heads of State of leading economies to accelerate the adoption of new technologies, responsible innovation, and sustainable transformation.
+        </p>
 
-          <div>
-            <h2 className="text-2xl font-semibold mb-4">Innovation & Venture Building</h2>
-            <p className="text-gray-700">
-              Prior to that, Vijay was a Venture Director at Innosight Ventures, a venture building 
-              firm co-founded by Clay Christensen, the world's most influential management thinker. 
-              Vijay incubated Razor Rave, funded by P&G and was part of the core incubation team 
-              that launched several ventures including the Edison award winning 'Healthy Heart for All' 
-              for Medtronic. His innovation & venture work have been featured in books like Lean
-              <span className="text-blue-600">#Startup</span>, First Mile & Little Black Book of
-              <span className="text-blue-600">#Innovation</span>.
-            </p>
-          </div>
+        <p className="text-lg leading-relaxed mb-6 text-gray-700">
+          At the Forum, I also led first-of-their-kind initiatives such as the Global Shapers Community, Climate Shape, and the Shaping the Better Future innovation challenges. These strategic initiatives empowered young changemakers in more than 450 cities worldwide to solve local problems through scalable and sustainable social innovations.
+        </p>
 
-          <div>
-            <h2 className="text-2xl font-semibold mb-4">Creative Leadership</h2>
-            <p className="text-gray-700">
-              Earlier, Vijay led Pet Alien, India's first Disney style animation series that aired 
-              in Cartoon Network. Vijay led a team of 120 artists and engineers to successfully 
-              deliver 52 episodes in 14 months and laid the foundation for the successful Indian 
-              animation industry. His work has won several awards including national awards and 
-              daytime Emmy nominations.
-            </p>
-          </div>
+        <p className="text-lg leading-relaxed mb-6 text-gray-700">
+          After my stint at the Forum, I became an entrepreneur, launching The Propel Labs, the Obesity Innovation Lab, and The Perennial Project. I am also building a community of middle-aged professionals who are reinventing themselves to lead fulfilling and impactful second halves of their lives.
+        </p>
 
-          <div>
-            <h2 className="text-2xl font-semibold mb-4">Education & Recognition</h2>
-            <p className="text-gray-700">
-              Vijay holds a Masters in Global <span className="text-blue-600">#Leadership</span> offered by WEF along with 
-              INSEAD, Wharton, Columbia, London Business School & CEIBS, China. Vijay also holds 
-              an MBA from the International University of Japan with a prestigious Monbukagakhusho 
-              scholarship from Ministry of Education, Culture, Sports, Science and Technology (MEXT), 
-              Govt of Japan. Vijay holds a Bachelors in Mechanical Engineering. Vijay has spoken at 
-              WEF Davos, Cannes Lions, TEDx and has written for WEF Agenda, Al Arabiya, Huffpost 
-              and Forbes.
-            </p>
-          </div>
-        </div>
+        <p className="text-lg leading-relaxed mb-6 text-gray-700">
+          Presently, as Entrepreneur in Residence at The Adecco Group, I help design ventures that expand access and opportunity for underserved communities. These include Mamas Chingonas in Mexico and Vou Brotar in Brazil, which support women and grassroots entrepreneurs. More recently, I am creating a Launchpad for Mature Job Seekers to connect older professionals with new pathways into the future of work.
+        </p>
+
+        <p className="text-lg leading-relaxed mb-6 text-gray-700">
+          Earlier, as Venture Director at Innosight Ventures, the venture-building firm co-founded by Harvard Business School's Clay Christensen, I incubated multiple innovation projects including the Edison Award–winning "Healthy Heart for All" for Medtronic, which expanded access to cardiac therapies for low-income patients.
+        </p>
+
+        <p className="text-lg leading-relaxed mb-6 text-gray-700">
+          Before that, I led Pet Alien, India's first Disney-style animation series for Cartoon Network, guiding a 120-member creative team that earned national awards and Emmy nominations and helped spark India's modern animation industry.
+        </p>
+
+        <p className="text-lg leading-relaxed mb-6 text-gray-700">
+          I hold a Master's in Global Leadership jointly offered by INSEAD, Wharton, Columbia, London Business School, and CEIBS China along with the World Economic Forum, where I was a Global Leadership Fellow. I also hold an MBA from the International University of Japan, awarded with the prestigious Monbukagakusho scholarship from the Government of Japan, and a Bachelor's degree in Mechanical Engineering.
+        </p>
+
+        <p className="text-lg leading-relaxed mb-6 text-gray-700">
+          I have spoken at the World Economic Forum in Davos, Cannes Lions, and TEDx, and my writing has been featured in the WEF Agenda, Al Arabiya, HuffPost, and Forbes.
+        </p>
+
+        <p className="text-lg leading-relaxed font-semibold text-gray-900">
+          If you are seeking that clarity to launch your next big initiative, connect with me.
+        </p>
       </motion.div>
     </div>
   )
