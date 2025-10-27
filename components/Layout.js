@@ -24,7 +24,7 @@ export default function Layout({ children }) {
               </Link>
             </div>
 
-            {/* Right: Home Icon, Contact Icon and Menu Icon */}
+            {/* Right: Home, Menu, Contact */}
             <div className="flex items-center space-x-4">
               <Link href="/">
                 <div className="w-12 h-12 rounded-full bg-white shadow-md hover:shadow-lg transition-all flex items-center justify-center text-primary hover:text-primary/80">
@@ -34,14 +34,6 @@ export default function Layout({ children }) {
                 </div>
               </Link>
 
-              <Link href="/contact">
-                <div className="w-12 h-12 rounded-full bg-white shadow-md hover:shadow-lg transition-all flex items-center justify-center text-gray-700 hover:text-primary">
-                  <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-                  </svg>
-                </div>
-              </Link>
-              
               <button
                 onClick={() => setIsMenuOpen(!isMenuOpen)}
                 className="w-12 h-12 rounded-full bg-white shadow-md hover:shadow-lg transition-all flex items-center justify-center text-gray-700 hover:text-primary"
@@ -55,6 +47,14 @@ export default function Layout({ children }) {
                   )}
                 </svg>
               </button>
+
+              <Link href="/contact">
+                <div className="w-12 h-12 rounded-full bg-white shadow-md hover:shadow-lg transition-all flex items-center justify-center text-gray-700 hover:text-primary">
+                  <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                  </svg>
+                </div>
+              </Link>
             </div>
           </div>
         </div>
