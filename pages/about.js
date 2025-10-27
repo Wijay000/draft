@@ -127,6 +127,18 @@ export default function About() {
               </div>
             </div>
           </div>
+
+          <div className="bg-gray-50 rounded-lg p-8 shadow-md">
+            <p className="text-lg leading-relaxed text-gray-700 mb-6 italic">
+              "Vijay is higly strategic with a passion for developing new business model for healthcare industry. Vijay believes more in human values and relationships. He is very humble and friendly in nature."
+            </p>
+            <div className="flex items-center justify-end">
+              <div className="text-right">
+                <p className="font-semibold text-gray-900">Munish Sehgal</p>
+                <p className="text-sm text-gray-600">Head of Regional Marketing, Abbott, Singapore</p>
+              </div>
+            </div>
+          </div>
         </div>
       </motion.div>
     </div>
