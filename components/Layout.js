@@ -24,6 +24,13 @@ export default function Layout({ children }) {
               </Link>
             </div>
 
+            {/* Middle: Tagline */}
+            <div className="flex-1 px-2 text-center">
+              <span className="font-bold text-gray-900 text-xs sm:text-sm md:text-base">
+                Innovator. Strategist. Writer. Keynote Speaker
+              </span>
+            </div>
+
             {/* Right: Home, Menu, Contact */}
             <div className="flex items-center space-x-4">
               <Link href="/">
