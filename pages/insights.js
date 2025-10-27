@@ -32,7 +32,7 @@ export default function Insights() {
       url: "https://medium.com/@innovate_11669/innovation-requires-perseverance-and-creativity-5fa9fe0dba44"
     },
     {
-      title: "To innovate, stay away from frameworks and methodologies",
+      title: "To innovate, avoid frameworks",
       date: "",
       description: "",
       url: "https://medium.com/@innovate_11669/to-innovate-stay-away-from-frameworks-and-methodologies-35438ae63d80"
