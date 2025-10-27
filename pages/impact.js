@@ -111,6 +111,31 @@ export default function Impact() {
           links: []
         }
       ]
+    },
+    {
+      title: "Responsible Innovation for a cleaner Geneva",
+      sections: [
+        {
+          heading: "Context",
+          content: "When my family first arrived in Switzerland, I was eager to show my children how clean and orderly the country was. But the moment we stepped out of the airport, my five-year-old son pointed to cigarette butts on the ground and said, \"You said Switzerland is clean. It's not true.\" His simple observation made me pause. Over the following weeks, I began to notice the same problem in many places, with cigarette litter scattered across tram stations, parks, and sidewalks. It became clear that this was not only an environmental issue but also a behavioural and design challenge.",
+          links: []
+        },
+        {
+          heading: "Challenge",
+          content: "The problem was more complex than it appeared. Cigarette butts are one of the most common forms of litter in cities, yet the solutions are often superficial. I wanted to understand why people discard cigarette waste so casually and how design could change this habit. My curiosity soon turned into a personal experiment. I started studying litter patterns and smokers' behaviour across Geneva's public spaces, from tram stops to train platforms, to identify the real barriers to responsible disposal.",
+          links: []
+        },
+        {
+          heading: "Approach",
+          content: "I began small, cleaning our local tram station with my children to help them learn about the consequences of cigarette waste. We collected hundreds of butts within minutes. Later, I dropped a few into a glass of water to show how toxins spread, a visual lesson that made a lasting impression on my kids. Over the next year, I conducted field research at Gare Cornavin and other stations, observing how smokers behaved in real settings. Together with urban designer Amin Khosravi, I mapped patterns and categorized smokers into five groups: responsible, conscious, busy, immobile, and disregarding. Each group required a different design response. We identified three main issues: poor bin design, limited access, and a lack of behavioural cues. Our insights led to ideas such as standardized receptacle designs, better bin placement, and visual nudges inspired by behavioural economics and nudge theory.",
+          links: []
+        },
+        {
+          heading: "Impact",
+          content: "These findings shaped ongoing conversations with Geneva's city officials about cleaner public spaces and responsible design. Through discussions with the mayor and collaborations with experts such as Terracycle, we explored how small interventions could create significant shifts in behaviour. The project showed me how empathy, observation, and design thinking can transform frustration into civic action. Switzerland remains an inspiration to me, and this experience reaffirmed my belief that every citizen, when equipped with awareness and thoughtful design, can help move Geneva from a clean city to one of the cleanest in the world.",
+          links: []
+        }
+      ]
     }
   ]
 
