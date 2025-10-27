@@ -3,7 +3,7 @@ export default function Insights() {
   const featuredPost = {
     title: "Is 'prompting' new?",
     date: "",
-    description: "",
+    description: "Exploring how prompting in AI mirrors ancient practices of asking the right questions - from Socratic dialogues to modern large language models. Understanding prompting as a timeless art of inquiry rather than a novel invention.",
     url: "https://medium.com/@innovate_11669/is-prompting-new-b09d8fb706df"
   };
 
@@ -111,9 +111,14 @@ export default function Insights() {
           rel="noopener noreferrer"
           className="block group rounded-lg border-2 border-[#b80a2c] p-8 hover:shadow-xl transition-all bg-gradient-to-br from-white to-gray-50"
         >
-          <h3 className="text-2xl sm:text-3xl font-bold text-gray-900 group-hover:text-[#b80a2c] transition-colors mb-2">
+          <h3 className="text-2xl sm:text-3xl font-bold text-gray-900 group-hover:text-[#b80a2c] transition-colors mb-4">
             {featuredPost.title}
           </h3>
+          {featuredPost.description && (
+            <p className="text-gray-700 text-base sm:text-lg leading-relaxed mb-4">
+              {featuredPost.description}
+            </p>
+          )}
           <span className="inline-block px-3 py-1 bg-[#b80a2c] text-white text-sm font-semibold rounded-full">
             Featured Article
           </span>
@@ -132,7 +137,7 @@ export default function Insights() {
               rel="noopener noreferrer"
               className="block group rounded-lg border border-gray-200 p-5 hover:shadow-md transition-colors"
             >
-              <h2 className="text-lg sm:text-xl font-semibold text-gray-900 group-hover:text-[#b80a2c] transition-colors break-words leading-snug">
+              <h2 className="text-lg sm:text-xl font-semibold text-gray-900 group-hover:text-[#b80a2c] transition-colors break-words leading-snug line-clamp-2 min-h-[3.5rem]">
                 {post.title}
               </h2>
               {post.date && (
