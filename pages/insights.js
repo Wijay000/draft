@@ -12,91 +12,91 @@ export default function Insights() {
     {
       title: "Data is not the phenomenon",
       date: "",
-      description: "",
+      description: "One of the first things we do from a research is to start interpreting the data and generate insights. What we fail to realize is that 'insights' are not the phenomenon itself.",
       url: "https://medium.com/@innovate_11669/data-is-not-the-phenomenon-5476a6651e2"
     },
     {
       title: "Schools banning AI Models",
       date: "",
-      description: "",
+      description: "I had a good discussion with a friend, an academic, on chatGPT and whether it should be banned from schools and universities.",
       url: "https://medium.com/@innovate_11669/should-we-ban-chatgpt-from-universities-and-schools-23ed6be7396b"
     },
     {
       title: "Humans to Humachines?",
       date: "",
-      description: "",
+      description: "The world is going through a technology explosion. It is hard to imagine a single moment without technology.",
       url: "https://www.linkedin.com/pulse/humans-humachines-vijay-anand-raju/"
     },
     {
       title: "Innovation requires perseverance",
       date: "",
-      description: "",
+      description: "In the fast-paced world of business, innovation often serves as the key differentiator between success and obsolescence.",
       url: "https://medium.com/@innovate_11669/innovation-requires-perseverance-and-creativity-5fa9fe0dba44"
     },
     {
       title: "To innovate, avoid frameworks",
       date: "",
-      description: "",
+      description: "Frameworks have undoubtedly played a crucial role in sizing up situations, providing models, and aiding our understanding of complex systems.",
       url: "https://medium.com/@innovate_11669/to-innovate-stay-away-from-frameworks-and-methodologies-35438ae63d80"
     },
     {
       title: "Innovation doesn't excite everyone",
       date: "",
-      description: "",
+      description: "A decade ago, we worked together to help a global medical device company launch a new business model innovation aimed at serving the underserved.",
       url: "https://medium.com/@innovate_11669/innovation-doesnt-excite-everyone-f11183dcb604"
     },
     {
       title: "A meditative conversation with chatGPT",
       date: "",
-      description: "",
+      description: "Exploring meditation and mindfulness through an AI-powered dialogue that bridges ancient wisdom with modern technology.",
       url: "https://medium.com/@vgthinks/a-meditative-conversation-with-my-friend-on-meditation-cd5249e7fe0f"
     },
     {
       title: "Innovation as an inner journey",
       date: "",
-      description: "",
+      description: "True innovation begins within—a journey of self-discovery that transforms how we see and solve problems.",
       url: "https://lnkd.in/ePP7pBZJ"
     },
     {
       title: "Listen to the end user",
       date: "",
-      description: "",
+      description: "Recently, as I was having my lunch on a Sunday afternoon, I saw a helicopter flying very close to my balcony and landing in the grass field in front.",
       url: "https://www.linkedin.com/pulse/leverage-technology-listen-being-who-has-problem-observe-raju/?trackingId=rThVEw4mEF8OOahWRo3uiQ%3D%3D"
     },
     {
       title: "Subdue or Surrender to AI?",
       date: "",
-      description: "",
+      description: "What was the most 'innovative' jargon that was widely used in the last 10 years? Innovation. There are more books on innovation than actual innovations.",
       url: "https://www.linkedin.com/pulse/ai-humans-going-subdue-surrender-new-phenomenon-vijay-anand-raju/?trackingId=hIuzvnako84mhFRBnGf3cw%3D%3D"
     },
     {
       title: "From problem to paradox",
       date: "",
-      description: "",
+      description: "Two social innovations that have changed India—exploring how embracing paradox leads to breakthrough solutions.",
       url: "https://www.weforum.org/stories/2015/06/problem-paradaox-2-social-innovations-that-have-changed-india/"
     },
     {
       title: "6 reflections from a WEF Fellow",
       date: "",
-      description: "",
+      description: "While I was trying to understand what leadership is, a former colleague gave a beautiful farewell speech highlighting what leadership is not.",
       url: "https://www.huffpost.com/archive/in/entry/6-reflections-from-a-global-leadership-program_b_7702632"
     },
     {
       title: "Can drones protect Indian women?",
       date: "",
-      description: "",
+      description: "Exploring how emerging technologies might address critical safety challenges and create new solutions for protection.",
       url: "https://www.weforum.org/stories/2016/09/could-drones-protect-india-s-women-from-rapists/"
     },
     {
       title: "3 business model shifts",
       date: "",
-      description: "",
+      description: "The new wave of entrepreneurs is driving fundamental shifts in how businesses create and deliver value.",
       url: "https://www.weforum.org/stories/2015/06/3-shifts-caused-by-the-new-wave-of-entrepreneurs/"
     },
     {
       title: "Freedom to innovate",
       date: "",
-      description: "",
+      description: "'Freedom from the desire for an answer is essential to the understanding of the problem.' - J Krishnamurti",
       url: "https://www.linkedin.com/pulse/20140813185037-9856952-freedom-to-innovate/?trackingId=jXFIGGspQ2GXkUhdFdKb%2Fg%3D%3D"
     }
   ];
