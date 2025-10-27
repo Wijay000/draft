@@ -1,12 +1,14 @@
 export default function Insights() {
-  // Example articles/posts
+  // Featured article
+  const featuredPost = {
+    title: "Is 'prompting' new?",
+    date: "",
+    description: "",
+    url: "https://medium.com/@innovate_11669/is-prompting-new-b09d8fb706df"
+  };
+
+  // Other articles/posts
   const posts = [
-    {
-      title: "Is 'prompting' new?",
-      date: "",
-      description: "",
-      url: "https://medium.com/@innovate_11669/is-prompting-new-b09d8fb706df"
-    },
     {
       title: "Data is not the phenomenon",
       date: "",
@@ -94,31 +96,54 @@ export default function Insights() {
   ];
 
   return (
-    <div className="max-w-2xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16">
+    <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16">
       <header className="mb-10 sm:mb-12 text-center">
         <h1 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-2">Insights</h1>
         <p className="text-base sm:text-lg text-gray-600">Essays and perspectives on leadership, innovation and artificial intelligence.</p>
       </header>
-      <section className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 sm:gap-6 lg:gap-8">
-        {posts.map((post) => (
-          <a
-            key={post.title}
-            href={post.url}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="block group rounded-lg border border-gray-200 p-5 hover:shadow-md transition-colors"
-          >
-            <h2 className="text-lg sm:text-xl font-semibold text-gray-900 group-hover:text-[#b80a2c] transition-colors break-words leading-snug">
-              {post.title}
-            </h2>
-            {post.date && (
-              <p className="text-xs sm:text-sm text-gray-500 mt-1">{post.date}</p>
-            )}
-            {post.description && (
-              <p className="text-gray-700 text-sm sm:text-base mt-2">{post.description}</p>
-            )}
-          </a>
-        ))}
+
+      {/* Featured Article */}
+      <section className="mb-12">
+        <h2 className="text-2xl font-bold text-gray-900 mb-6">Featured</h2>
+        <a
+          href={featuredPost.url}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="block group rounded-lg border-2 border-[#b80a2c] p-8 hover:shadow-xl transition-all bg-gradient-to-br from-white to-gray-50"
+        >
+          <h3 className="text-2xl sm:text-3xl font-bold text-gray-900 group-hover:text-[#b80a2c] transition-colors mb-2">
+            {featuredPost.title}
+          </h3>
+          <span className="inline-block px-3 py-1 bg-[#b80a2c] text-white text-sm font-semibold rounded-full">
+            Featured Article
+          </span>
+        </a>
+      </section>
+
+      {/* All Other Articles */}
+      <section>
+        <h2 className="text-2xl font-bold text-gray-900 mb-6">All Articles</h2>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 sm:gap-6 lg:gap-8">
+          {posts.map((post) => (
+            <a
+              key={post.title}
+              href={post.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block group rounded-lg border border-gray-200 p-5 hover:shadow-md transition-colors"
+            >
+              <h2 className="text-lg sm:text-xl font-semibold text-gray-900 group-hover:text-[#b80a2c] transition-colors break-words leading-snug">
+                {post.title}
+              </h2>
+              {post.date && (
+                <p className="text-xs sm:text-sm text-gray-500 mt-1">{post.date}</p>
+              )}
+              {post.description && (
+                <p className="text-gray-700 text-sm sm:text-base mt-2">{post.description}</p>
+              )}
+            </a>
+          ))}
+        </div>
       </section>
     </div>
   )
