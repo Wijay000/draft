@@ -1,4 +1,3 @@
-deploy
 export default function Contact() {
   const onSubmit = (e) => {
     e.preventDefault()
