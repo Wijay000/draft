@@ -80,7 +80,7 @@ export default function Ideas() {
               <img
                 src={item.thumbnail}
                 alt={item.title}
-                className="w-full h-full object-cover group-hover:opacity-90 transition-opacity"
+                className="w-full h-full object-cover object-center group-hover:opacity-90 transition-opacity"
               />
               {item.type === 'video' && (
                 <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-0 group-hover:bg-opacity-10 transition-all">
