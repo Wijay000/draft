@@ -35,7 +35,7 @@ export default function Ideas() {
     {
       title: "Davos: Adi Godrej",
       url: "https://www.youtube.com/watch?v=6Cv_HcEdhLI",
-      thumbnail: "https://www.weforum.org/assets/logo/header.svg",
+      thumbnail: "/images/Ideas - Davos1.jpg",
       type: "talk"
     },
     {
@@ -47,7 +47,7 @@ export default function Ideas() {
     {
       title: "Davos: Prof. Haussman",
       url: "https://www.youtube.com/watch?v=gg05B3_soH0",
-      thumbnail: "https://www.weforum.org/assets/logo/header.svg",
+      thumbnail: "/images/Ideas - Davos2.jpg",
       type: "video"
     }
   ];
