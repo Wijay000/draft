@@ -86,6 +86,31 @@ export default function Impact() {
           links: []
         }
       ]
+    },
+    {
+      title: "Mature Job Seekers in the UK",
+      sections: [
+        {
+          heading: "Context",
+          content: "Across the United Kingdom, thousands of professionals over 50 find themselves pushed to the margins of the job market. Many bring decades of knowledge and experience, yet face invisible barriers of age bias, shifting technologies, and declining confidence. As Entrepreneur in Residence at The Adecco Group, I began exploring how we might help mature job seekers reconnect with opportunity and purpose in a rapidly changing world of work.",
+          links: []
+        },
+        {
+          heading: "Challenge",
+          content: "The challenge was not simply about employment. It was about identity, dignity, and the right to belong in a workplace that increasingly values youth over experience. Many talented professionals had the motivation to work but lacked the networks, digital skills, or guidance to translate their expertise into new roles. Job Centers across the UK wanted to engage these individuals more effectively but needed a new model that combined empathy, learning, and real outcomes rather than statistics.",
+          links: []
+        },
+        {
+          heading: "Approach",
+          content: "We designed the Mature Workers Launchpad, a program created to help people over 50 reimagine their careers and re-enter the workforce with confidence. Working with Job Centers across the UK, we built a structured yet human-centered approach that combines digital skill-building, career coaching, and peer learning circles to restore confidence and motivation. Participants work with mentors to translate their life experiences into marketable skills, supported by tools that help them identify new career paths and explore flexible or purpose-driven work opportunities. The program also connects employers to this untapped pool of talent, helping them see the strategic advantage of hiring experienced professionals.",
+          links: []
+        },
+        {
+          heading: "Impact",
+          content: "The early results have been deeply encouraging. Participants report higher confidence, renewed energy, and a sense of belonging after years of exclusion. Several have secured new roles or launched second careers, often in sectors they had never considered before. For Job Centers, the program has become a model for inclusive employment, showing that with empathy, design thinking, and structured support, experience can be reframed as an asset rather than a liability.",
+          links: []
+        }
+      ]
     }
   ]
 
