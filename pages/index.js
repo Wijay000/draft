@@ -7,13 +7,13 @@ export default function Home() {
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
-        className="text-center max-w-4xl"
+        className="text-center max-w-5xl"
       >
-        <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-8 leading-tight">
+        <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-16 whitespace-nowrap">
           The world is moving faster than your next decision.
         </h1>
         
-        <p className="text-2xl md:text-3xl lg:text-4xl text-gray-700 mb-8">
+        <p className="text-2xl md:text-3xl lg:text-4xl text-gray-700 mb-4">
           You don't have to have all the answers.
         </p>
         
