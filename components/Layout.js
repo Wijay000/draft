@@ -85,6 +85,9 @@ export default function Layout({ children }) {
               <Link href="/impact" onClick={() => setIsMenuOpen(false)}>
                 <span className="block px-6 py-3 text-gray-700 hover:bg-gray-50 hover:text-primary transition-colors cursor-pointer">Impact</span>
               </Link>
+              <Link href="/interests" onClick={() => setIsMenuOpen(false)}>
+                <span className="block px-6 py-3 text-gray-700 hover:bg-gray-50 hover:text-primary transition-colors cursor-pointer">Interests</span>
+              </Link>
             </motion.nav>
           )}
         </AnimatePresence>

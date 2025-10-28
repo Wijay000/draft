@@ -206,7 +206,7 @@ export default function Impact() {
           Impact
         </h1>
         <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-          Creating lasting positive impact across Europe, Americas, Asia through innovation
+          Select impact stories across Europe, Americas and Asia
         </p>
       </motion.div>
 
