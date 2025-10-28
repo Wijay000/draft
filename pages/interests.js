@@ -3,19 +3,19 @@ import { motion } from 'framer-motion'
 export default function Interests() {
   const items = [
     {
-      title: "Interests - Channel",
+      title: "Fitness Channel",
       url: "https://www.youtube.com/@Wijay000",
       thumbnail: "/images/Interests - Channel.jpg",
       type: "article"
     },
     {
-      title: "Interests - TPP",
-      url: "#",
+      title: "Community",
+      url: "https://web-canvas-tpp.replit.app/",
       thumbnail: "/images/Interests - TPP.jpg",
       type: "article"
     },
     {
-      title: "Interests - Creatives",
+      title: "Creatives",
       url: "https://drive.google.com/file/d/10OPjrnEft3h1SP8g1uQnV2Ixtpo7KOci/view?usp=drive_link",
       thumbnail: "/images/Interests - Creatives.jpg",
       type: "article"
@@ -53,7 +53,7 @@ export default function Interests() {
                 className="w-full h-full object-cover object-center group-hover:opacity-90 transition-opacity"
               />
             </div>
-            <div className="p-5 bg-white">
+            <div className="p-5 bg-white text-center">
               <h2 className="text-lg sm:text-xl font-semibold text-gray-900 group-hover:text-[#b80a2c] transition-colors">
                 {item.title}
               </h2>

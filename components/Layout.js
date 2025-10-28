@@ -27,7 +27,7 @@ export default function Layout({ children }) {
             {/* Middle: Tagline (hidden on mobile, shown on desktop) */}
             <div className="hidden md:flex flex-1 px-2 text-center">
               <span className="font-bold text-gray-900 text-xs sm:text-sm md:text-base mx-auto">
-                Innovator. Strategist. Writer. Keynote Speaker
+                Strategist. Innovator. Storyteller
               </span>
             </div>
 
