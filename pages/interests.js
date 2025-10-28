@@ -5,19 +5,19 @@ export default function Interests() {
     {
       title: "Interests - Channel",
       url: "https://www.youtube.com/@Wijay000",
-      thumbnail: "/images/Ideas - Podcast.jpeg.jpeg",
+      thumbnail: "/images/Interests - Channel.jpg",
       type: "article"
     },
     {
       title: "Interests - TPP",
       url: "#",
-      thumbnail: "/images/Ideas - WEF.jpg",
+      thumbnail: "/images/Interests - TPP.jpg",
       type: "article"
     },
     {
       title: "Interests - Creatives",
       url: "https://drive.google.com/file/d/10OPjrnEft3h1SP8g1uQnV2Ixtpo7KOci/view?usp=drive_link",
-      thumbnail: "/images/Ideas - Cannes.jpg",
+      thumbnail: "/images/Interests - Creatives.jpg",
       type: "article"
     }
   ];
