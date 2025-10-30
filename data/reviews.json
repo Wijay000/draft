@@ -5,4 +5,35 @@
     "description": "A short example review entry. Replace these placeholders with your actual reviews and links.",
     "url": "#"
   }
+  ,
+  {
+    "title": "Stalker (Russian)",
+    "region": "global",
+    "description": "Stalker by Andrey Tarkovsky. Stalker is a 1979 Russian film made by… | by Wijay000 | Medium",
+    "url": "#"
+  },
+  {
+    "title": "All we imagine as light (Indian)",
+    "region": "global",
+    "description": "A cute, niche and magical Cinema experience in Geneva | by Wijay000 | Medium",
+    "url": "#"
+  },
+  {
+    "title": "Bicycle Thieves (Italian)",
+    "region": "global",
+    "description": "Ladri di Biciclette (Bicycle Thieves) | by Wijay000 | Medium",
+    "url": "#"
+  },
+  {
+    "title": "Cinema Paradiso (Italian)",
+    "region": "global",
+    "description": "Cinema Paradiso. I am getting increasingly attracted to… | by Wijay000 | Medium",
+    "url": "#"
+  },
+  {
+    "title": "Amores de Chumbo (Portuguese)",
+    "region": "global",
+    "description": "Amores de Chumbo — A youthful love story of old people | by Wijay000 | Medium",
+    "url": "#"
+  }
 ]
