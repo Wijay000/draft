@@ -20,6 +20,13 @@ export default function Interests() {
       thumbnail: "/images/Interests - Creatives.jpg",
       type: "article"
     }
+    ,
+    {
+      title: "Movie Reviews",
+      url: "#",
+      thumbnail: "/images/Interests - Channel.jpg",
+      type: "article"
+    }
   ];
 
   return (
