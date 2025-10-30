@@ -1,15 +1,6 @@
-export default function MovieReviews() {
-  // Placeholder reviews array. Add your reviews here as objects with
-  // { title, date, description, url }
-  const reviews = [
-    {
-      title: "Sample Review: Example Film",
-      date: "2025-10-01",
-      description: "A short example review entry. Replace these placeholders with your actual reviews and links.",
-      url: "#"
-    }
-  ]
+import reviews from '../data/reviews.json'
 
+export default function MovieReviews() {
   const featured = reviews.length > 0 ? reviews[0] : null
 
   return (
