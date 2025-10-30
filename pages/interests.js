@@ -23,7 +23,7 @@ export default function Interests() {
     {
       title: "Film Reviews",
       url: "/film-reviews",
-      thumbnail: "/images/Interests - Creatives.jpg",
+      thumbnail: "/images/Interests - Movies.jpg",
       type: "article"
     }
   ];
