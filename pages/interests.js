@@ -21,12 +21,6 @@ export default function Interests() {
       type: "article"
     }
     ,
-    {
-      title: "Movie Reviews",
-      url: "/movie-reviews",
-      thumbnail: "/images/Interests - Movies.jpg",
-      type: "article"
-    }
   ];
 
   return (
