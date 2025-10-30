@@ -7,8 +7,9 @@ export default function MovieReviews() {
   const filtered = reviews.filter((r) => {
     const region = r.region ? String(r.region).toLowerCase() : null
     if (activeTab === 'Indian') return region === 'indian'
-    // Global tab: include reviews explicitly marked global, and any without a region
-    return region === 'global' || !region
+    if (activeTab === 'Global') return region === 'global'
+    // General tab: include reviews explicitly marked general, and any without a region
+    return region === 'general' || !region
   })
 
   const featured = filtered.length > 0 ? filtered[0] : null
@@ -34,6 +35,12 @@ export default function MovieReviews() {
             className={`ml-1 px-4 py-2 rounded-md text-sm font-medium ${activeTab === 'Global' ? 'bg-white shadow text-gray-900' : 'text-gray-600'}`}
           >
             Global Movies
+          </button>
+          <button
+            onClick={() => setActiveTab('General')}
+            className={`ml-1 px-4 py-2 rounded-md text-sm font-medium ${activeTab === 'General' ? 'bg-white shadow text-gray-900' : 'text-gray-600'}`}
+          >
+            General
           </button>
         </nav>
       </div>
