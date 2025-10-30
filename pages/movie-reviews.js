@@ -21,14 +21,10 @@ export default function MovieReviews() {
   })
 
   // Ensure only one Featured review: prefer the review whose cleaned title is exactly 'Stalker'
-  const featured = reviews.find((r) => clean(r.title).toLowerCase() === 'stalker') || null
+  // No featured card: render filtered list directly
+  const listToRender = filtered
 
-  // When rendering lists, avoid duplicating the featured review
-  const listToRender = featured
-    ? filtered.filter((r) => clean(r.title).toLowerCase() !== 'stalker')
-    : filtered
-
-  const activeLabel = activeTab === 'All' ? 'All Reviews' : activeTab === 'General' ? 'General' : `${activeTab} Movies`
+  
 
   return (
     <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16">
@@ -67,27 +63,9 @@ export default function MovieReviews() {
         </nav>
       </div>
 
-      {featured && (
-        <section className="mb-12">
-          <a
-            href={featured.url}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="block group rounded-lg shadow-lg hover:shadow-2xl p-8 transition-all bg-gradient-to-br from-white to-gray-50"
-          >
-            <h3 className="text-2xl sm:text-3xl font-bold text-gray-900 group-hover:text-[#b80a2c] transition-colors mb-4">
-              {clean(featured.title)}
-            </h3>
-            {featured.description && (
-              <p className="text-gray-700 text-base sm:text-lg leading-relaxed mb-4">{clean(featured.description)}</p>
-            )}
-            <span className="inline-block px-3 py-1 bg-[#b80a2c] text-white text-sm font-semibold rounded-full">Featured Review</span>
-          </a>
-        </section>
-      )}
+      {/* Featured card removed per user request - only list grid will render */}
 
       <section>
-        <h2 className="text-2xl font-bold text-gray-900 mb-6">{activeLabel}</h2>
         {listToRender.length === 0 ? (
           <p className="text-gray-600">No reviews available for this category.</p>
         ) : (
