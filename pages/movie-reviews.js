@@ -2,17 +2,33 @@ import { useState } from 'react'
 import reviews from '../data/reviews.json'
 
 export default function MovieReviews() {
-  const [activeTab, setActiveTab] = useState('Indian')
+  // Show all reviews by default; tabs filter the list when selected
+  const [activeTab, setActiveTab] = useState('All')
+
+  const clean = (s) => {
+    if (!s) return s
+    // Remove the trailing ' | by Wijay000 | Medium' suffix if present and trim
+    return String(s).replace(/\s*\|\s*by\s*Wijay000\s*\|\s*Medium\s*$/i, '').trim()
+  }
 
   const filtered = reviews.filter((r) => {
     const region = r.region ? String(r.region).toLowerCase() : null
+    if (activeTab === 'All') return true
     if (activeTab === 'Indian') return region === 'indian'
     if (activeTab === 'Global') return region === 'global'
     // General tab: include reviews explicitly marked general, and any without a region
     return region === 'general' || !region
   })
 
-  const featured = filtered.length > 0 ? filtered[0] : null
+  // Ensure only one Featured review: prefer the review whose cleaned title is exactly 'Stalker'
+  const featured = reviews.find((r) => clean(r.title).toLowerCase() === 'stalker') || null
+
+  // When rendering lists, avoid duplicating the featured review
+  const listToRender = featured
+    ? filtered.filter((r) => clean(r.title).toLowerCase() !== 'stalker')
+    : filtered
+
+  const activeLabel = activeTab === 'All' ? 'All Reviews' : activeTab === 'General' ? 'General' : `${activeTab} Movies`
 
   return (
     <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16">
@@ -25,16 +41,22 @@ export default function MovieReviews() {
       <div className="flex justify-center mb-6">
         <nav className="inline-flex rounded-lg bg-gray-100 p-1">
           <button
-            onClick={() => setActiveTab('Indian')}
-            className={`px-4 py-2 rounded-md text-sm font-medium ${activeTab === 'Indian' ? 'bg-white shadow text-gray-900' : 'text-gray-600'}`}
+            onClick={() => setActiveTab('All')}
+            className={`px-4 py-2 rounded-md text-sm font-medium ${activeTab === 'All' ? 'bg-white shadow text-gray-900' : 'text-gray-600'}`}
           >
-            Indian Movies
+            All
+          </button>
+          <button
+            onClick={() => setActiveTab('Indian')}
+            className={`ml-1 px-4 py-2 rounded-md text-sm font-medium ${activeTab === 'Indian' ? 'bg-white shadow text-gray-900' : 'text-gray-600'}`}
+          >
+            Indian
           </button>
           <button
             onClick={() => setActiveTab('Global')}
             className={`ml-1 px-4 py-2 rounded-md text-sm font-medium ${activeTab === 'Global' ? 'bg-white shadow text-gray-900' : 'text-gray-600'}`}
           >
-            Global Movies
+            Global
           </button>
           <button
             onClick={() => setActiveTab('General')}
@@ -54,10 +76,10 @@ export default function MovieReviews() {
             className="block group rounded-lg shadow-lg hover:shadow-2xl p-8 transition-all bg-gradient-to-br from-white to-gray-50"
           >
             <h3 className="text-2xl sm:text-3xl font-bold text-gray-900 group-hover:text-[#b80a2c] transition-colors mb-4">
-              {featured.title}
+              {clean(featured.title)}
             </h3>
             {featured.description && (
-              <p className="text-gray-700 text-base sm:text-lg leading-relaxed mb-4">{featured.description}</p>
+              <p className="text-gray-700 text-base sm:text-lg leading-relaxed mb-4">{clean(featured.description)}</p>
             )}
             <span className="inline-block px-3 py-1 bg-[#b80a2c] text-white text-sm font-semibold rounded-full">Featured Review</span>
           </a>
@@ -65,24 +87,24 @@ export default function MovieReviews() {
       )}
 
       <section>
-        <h2 className="text-2xl font-bold text-gray-900 mb-6">{activeTab === 'Indian' ? 'Indian Movies' : 'Global Movies'}</h2>
-        {filtered.length === 0 ? (
+        <h2 className="text-2xl font-bold text-gray-900 mb-6">{activeLabel}</h2>
+        {listToRender.length === 0 ? (
           <p className="text-gray-600">No reviews available for this category.</p>
         ) : (
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 sm:gap-6 lg:gap-8">
-            {filtered.map((r) => (
+            {listToRender.map((r) => (
             <a
-              key={r.title}
+              key={r.title + (r.url || '')}
               href={r.url}
               target="_blank"
               rel="noopener noreferrer"
               className="block group rounded-lg border border-gray-200 p-5 shadow-md hover:shadow-xl transition-all"
             >
               <h2 className="text-lg sm:text-xl font-semibold text-gray-900 group-hover:text-[#b80a2c] transition-colors leading-snug line-clamp-2 min-h-[3.5rem]">
-                {r.title}
+                {clean(r.title)}
               </h2>
               {r.date && <p className="text-xs sm:text-sm text-gray-500 mt-1">{r.date}</p>}
-              {r.description && <p className="text-gray-700 text-sm sm:text-base mt-2 line-clamp-3">{r.description}</p>}
+              {r.description && <p className="text-gray-700 text-sm sm:text-base mt-2 line-clamp-3">{clean(r.description)}</p>}
             </a>
             ))}
           </div>
