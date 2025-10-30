@@ -19,8 +19,13 @@ export default function Interests() {
       url: "https://drive.google.com/file/d/10OPjrnEft3h1SP8g1uQnV2Ixtpo7KOci/view?usp=drive_link",
       thumbnail: "/images/Interests - Creatives.jpg",
       type: "article"
+    },
+    {
+      title: "Film Reviews",
+      url: "/film-reviews",
+      thumbnail: "/images/Interests - Creatives.jpg",
+      type: "article"
     }
-    ,
   ];
 
   return (
