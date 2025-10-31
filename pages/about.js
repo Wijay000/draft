@@ -72,19 +72,22 @@ export default function About() {
 
           <ul>
             <li>
-              Global Shapers Community in 450+ cities, empowering young changemakers to design scalable social innovations and giving them a seat at the table in shaping a better future.
+              Enabling CEOs and Government leaders to accelerate the adoption of AI &amp; new technologies as well as sustainability transformation.
             </li>
             <li>
-              Inclusive ventures such as Mamas Chingonas (Mexico), Vou Brotar (Brazil), and the Launchpad for Mature Job Seekers(UK), Razor Rave (India) expanding access and opportunity.
+              Award-winning innovations such as Healthy Heart for All to help low income patients access expensive cardiac therapies in India and East Asia.
             </li>
             <li>
-              Award-winning innovations like Healthy Heart for All at Innosight Ventures, broadening access to cardiac care for underserved communities.
+              Driving digital transformation and leading India’s first Disney-style animation series for Cartoon Network that won a Daytime Emmy nomination.
             </li>
             <li>
-              Leading creative and engineering teams to deliver India’s first Disney-style animation series for Cartoon Network and several series for PBS, Nickelodeon, Disney
+              Building social ventures in Mexico and Brazil to help young mothers, and in the UK enabling mature job seekers expanding access and opportunity.
             </li>
             <li>
-              Spreading ideas to global audiences through TEDx, Cannes Lions, and WEF Davos.
+              Launching the Global Shapers Community in 450+ cities giving young leaders a seat at the table and a community to launch city level social innovations.
+            </li>
+            <li>
+              Spreading ideas to global audiences through TEDx, Cannes Lions, WEF Davos, Huffpost, WEF Agenda, and Forbes.
             </li>
           </ul>
 
