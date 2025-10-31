@@ -23,7 +23,8 @@ export default function Interests() {
     {
       title: "Film Reviews",
       url: "/film-reviews",
-      thumbnail: "/images/interests-movies.jpg",
+      // use the public image with proper casing and spacing
+      thumbnail: "/images/Interests - Movies.jpg",
       type: "article"
     }
   ];
