@@ -104,10 +104,10 @@ export default function About() {
         transition={{ delay: 0.3 }}
         className="prose prose-lg max-w-none bg-white p-6 rounded-lg shadow-sm mt-6"
       >
-        <h3 className="font-semibold">Education:</h3>
+        <h3 className="font-semibold">Education</h3>
 
         <p>
-          <strong>Master’s in Global Leadership</strong>
+          <strong>Masters in Global Leadership</strong>
           <br />
           Jointly offered by INSEAD, Wharton School at UPenn, Columbia University, London Business School, CEIBS China along with the World Economic; Global Leadership Fellow
         </p>
@@ -121,7 +121,7 @@ export default function About() {
         </p>
 
         <p>
-          <strong>Bachelor’s in Mechanical Engineering</strong>
+          <strong>Bachelors in Mechanical Engineering</strong>
           <br />
           Madurai Kamaraj University, India
         </p>
