@@ -61,7 +61,7 @@ export default function FilmReviews() {
             Review of Movie Classics
           </h3>
           <p className="text-gray-700 text-base sm:text-lg leading-relaxed mb-4">
-            Delving into Film Classics — a short essay on why classic films matter.
+            After being tired of watching non inventive Tamil films where the directors believe that ‘Gangsters’ are the only character vehicles to showcase heroism and heroes, I decided to stop watching these films and instead delve into film classics
           </p>
           <span className="inline-block px-3 py-1 bg-[#b80a2c] text-white text-sm font-semibold rounded-full">
             Featured Review
