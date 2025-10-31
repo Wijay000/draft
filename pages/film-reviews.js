@@ -6,7 +6,12 @@ export default function FilmReviews() {
   const focusedTitles = [
     'Stalker (Russian)',
     'All we imagine as light (Indian)',
-    'Bicycle Thieves (Italian)'
+    'Bicycle Thieves (Italian)',
+    'Cinema Paradiso (Italian)',
+    'Amores de Chumbo (Portuguese)',
+    'Pather Panchali (Bengali)',
+    'Kottukaali (Tamil)',
+    'Visaranai (Tamil)'
   ]
 
   const posts = focusedTitles.map((t) => reviewsData.find((r) => r.title === t)).filter(Boolean)
@@ -19,7 +24,6 @@ export default function FilmReviews() {
       </motion.div>
 
       <section>
-        <h2 className="text-2xl font-bold text-gray-900 mb-6">Selected Reviews</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 sm:gap-6 lg:gap-8">
           {posts.map((post) => (
             <a
