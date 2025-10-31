@@ -47,23 +47,33 @@ export default function About() {
           <h2 className="font-semibold">Turning Complexity into Clarity, Innovation into Impact</h2>
 
           <p>
-            <strong>Where:</strong> At international organizations (World Economic Forum), innovation consulting &amp; venture building firms (Innosight Ventures), Creative agencies (Crest Animation Studios), with clients such as Medtronic, 3M, HP, TCS, J&amp;J, The Adecco Group and as an Entrepreneur
+            <strong>Where:</strong>
+            <br />
+            At international organizations (World Economic Forum), innovation consulting &amp; venture building firms (Innosight Ventures), Creative agencies (Crest Animation Studios), with clients such as Medtronic, 3M, HP, TCS, J&amp;J, The Adecco Group and as an Entrepreneur
           </p>
 
           <p>
-            <strong>With:</strong> CEOs &amp; Senior Executives in Business, PMs, Presidents, Innovation Leaders, Entrepreneurs and non profit leaders
+            <strong>With:</strong>
+            <br />
+            CEOs &amp; Senior Executives in Business, PMs, Presidents, Innovation Leaders, Entrepreneurs and non profit leaders
           </p>
 
           <p>
-            <strong>As:</strong> Head of Strategy at the World Economic Forum, Venture Director at Innosight Ventures, Entrepreneur in Residence at The Adecco Group, Technical Director at Crest Animation Studios
+            <strong>As:</strong>
+            <br />
+            Head of Strategy at the World Economic Forum, Venture Director at Innosight Ventures, Entrepreneur in Residence at The Adecco Group, Technical Director at Crest Animation Studios
           </p>
 
           <p>
-            <strong>Launching:</strong> First of its kind initiatives from India’s first 3D computer animation series to corporate venture building to global community building to driving business model innovation
+            <strong>Launching:</strong>
+            <br />
+            First of its kind initiatives including India’s first 3D Computer Animation Series, Corporate Ventures, Global Communities, Business Model Innovations, Venture Studios, Innovation Labs
           </p>
 
           <p>
-            <strong>Impacting:</strong> Youth, Mature Workers, Women back to work, CXOs, Heads of State, Low Income Patients, Barbers, Washermen, Kids to name a few
+            <strong>Impacting:</strong>
+            <br />
+            Youth, Mature Workers, Women back to work, CXOs, Heads of State, Low Income Patients, Barbers, Washermen, Kids to name a few
           </p>
 
           <p>
@@ -71,24 +81,12 @@ export default function About() {
           </p>
 
           <ul>
-            <li>
-              Enabling CEOs and Government leaders to accelerate the adoption of AI &amp; new technologies as well as sustainability transformation.
-            </li>
-            <li>
-              Award-winning innovations such as Healthy Heart for All to help low income patients access expensive cardiac therapies in India and East Asia.
-            </li>
-            <li>
-              Driving digital transformation and leading India’s first Disney-style animation series for Cartoon Network that won a Daytime Emmy nomination.
-            </li>
-            <li>
-              Building social ventures in Mexico and Brazil to help young mothers, and in the UK enabling mature job seekers expanding access and opportunity.
-            </li>
-            <li>
-              Launching the Global Shapers Community in 450+ cities giving young leaders a seat at the table and a community to launch city level social innovations.
-            </li>
-            <li>
-              Spreading ideas to global audiences through TEDx, Cannes Lions, WEF Davos, Huffpost, WEF Agenda, and Forbes.
-            </li>
+            <li>Enabling CEOs and Government leaders to accelerate the adoption of AI &amp; new technologies as well as sustainability transformation.</li>
+            <li>Award-winning innovations such as Healthy Heart for All to help low income patients access expensive cardiac therapies in India and East Asia.</li>
+            <li>Driving digital transformation and leading India’s first Disney-style animation series for Cartoon Network that won a Daytime Emmy nomination.</li>
+            <li>Building social ventures in Mexico and Brazil to help young mothers, and in the UK enabling mature job seekers expanding access and opportunity.</li>
+            <li>Launching the Global Shapers Community in 450+ cities giving young leaders a seat at the table and a community to launch city level social innovations.</li>
+            <li>Spreading ideas to global audiences through TEDx, Cannes Lions, WEF Davos, Huffpost, WEF Agenda, and Forbes.</li>
           </ul>
 
           <p>
