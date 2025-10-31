@@ -38,9 +38,6 @@ export default function FilmReviews() {
               {post.excerpt && (
                 <p className="text-gray-600 text-sm sm:text-base mt-2 line-clamp-3">{post.excerpt}</p>
               )}
-              {post.description && (
-                <p className="text-gray-700 text-sm sm:text-base mt-2 line-clamp-3">{post.description}</p>
-              )}
             </a>
           ))}
         </div>
