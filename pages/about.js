@@ -37,11 +37,6 @@ export default function About() {
         </div>
       </motion.div>
 
-    </div>
-  )
-}
-
-
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
@@ -125,7 +120,7 @@ export default function About() {
               className="text-gray-600 italic p-4 bg-gray-50 rounded-lg"
             >
               "Vijay is as creative and innovative thinker as I have come across in my career. What sets him apart is ability to quickly get in the market and test out key assumptions and gather market insights around the consumer job to be done"
-              <footer className="mt-2 font-semibold">- Hari Nair, Vice President, R&D Fabric &amp; Home Care Global Packaging, Learning Lab and Partner Lab at Procter &amp; Gamble, Co-Author The Innovative Leader</footer>
+              <footer className="mt-2 font-semibold">- Hari Nair, Vice President, R&D Fabric & Home Care Global Packaging, Learning Lab and Partner Lab at Procter & Gamble, Co-Author The Innovative Leader</footer>
             </motion.blockquote>
             <motion.blockquote
               initial={{ opacity: 0 }}
@@ -148,3 +143,6 @@ export default function About() {
           </div>
         </div>
       </motion.div>
+    </div>
+  )
+}
