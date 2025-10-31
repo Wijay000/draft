@@ -50,36 +50,36 @@ export default function About() {
               <tr>
                 <th scope="col" className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"></th>
                 <th scope="col" className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">How I create value</th>
-                <th scope="col" className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">How I create impact</th>
+                <th scope="col" className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Impact</th>
                 <th scope="col" className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Credibility</th>
               </tr>
             </thead>
             <tbody className="bg-white divide-y divide-gray-200">
               <tr className="hover:bg-gray-50">
                 <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">Strategist</td>
-                <td className="px-6 py-4 whitespace-normal text-sm text-gray-700">Partner with CEOs and senior teams to translate complexity into clear, testable strategic choices and roadmaps.</td>
-                <td className="px-6 py-4 whitespace-normal text-sm text-gray-700">Design and launch cross-sector initiatives that mobilise stakeholders and scale solutions globally.</td>
+                <td className="px-6 py-4 whitespace-normal text-sm text-gray-700">Strategic Choices, Community Building, Executive Coaching</td>
+                <td className="px-6 py-4 whitespace-normal text-sm text-gray-700">WEF Summer Davos in China, WEF Digital, Global Shapers Community</td>
                 <td className="px-6 py-4 whitespace-normal text-sm text-gray-700">Head of Strategy, World Economic Forum; worked with 300+ unicorns and Heads of State.</td>
               </tr>
 
               <tr className="hover:bg-gray-50">
                 <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">Entrepreneur</td>
-                <td className="px-6 py-4 whitespace-normal text-sm text-gray-700">Create ventures and labs that prototype new business models and test them in-market rapidly.</td>
-                <td className="px-6 py-4 whitespace-normal text-sm text-gray-700">Launch ventures addressing healthcare access, workforce reinvention, and grassroots entrepreneurship.</td>
+                <td className="px-6 py-4 whitespace-normal text-sm text-gray-700">New Ventures, Strategic Initiatives, Pilots, Prototypes, Proof of Concepts</td>
+                <td className="px-6 py-4 whitespace-normal text-sm text-gray-700">The Perennial Project, The Propel Labs, Obesity Innovation Lab, Razor Rave, Village Laundry Services</td>
                 <td className="px-6 py-4 whitespace-normal text-sm text-gray-700">Founder: The Propel Labs, Obesity Innovation Lab; Entrepreneur in Residence at The Adecco Group.</td>
               </tr>
 
               <tr className="hover:bg-gray-50">
                 <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">Innovator</td>
-                <td className="px-6 py-4 whitespace-normal text-sm text-gray-700">Incubate and scale innovation projects using human-centered design and rigorous testing.</td>
-                <td className="px-6 py-4 whitespace-normal text-sm text-gray-700">Delivered award-winning healthcare solutions that expanded access for low-income patients.</td>
+                <td className="px-6 py-4 whitespace-normal text-sm text-gray-700">Workshops, Consulting, Innovation Sprints, Capability Building for AI, Training</td>
+                <td className="px-6 py-4 whitespace-normal text-sm text-gray-700">Mamas Chingonas in Mexico, Vou Broar in Brazil, Launchpad in UK, Healthy Heart for All, Innovation Strategy for TCS, J&J, Medtronic</td>
                 <td className="px-6 py-4 whitespace-normal text-sm text-gray-700">Venture Director at Innosight Ventures; Edison Award–winning project for Medtronic.</td>
               </tr>
 
               <tr className="hover:bg-gray-50">
                 <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">Storyteller</td>
-                <td className="px-6 py-4 whitespace-normal text-sm text-gray-700">Mobilise people through narrative, programs and networks that create sustained behaviour change.</td>
-                <td className="px-6 py-4 whitespace-normal text-sm text-gray-700">Built global programs that empowered changemakers across hundreds of cities and supported animation & creative industries in India.</td>
+                <td className="px-6 py-4 whitespace-normal text-sm text-gray-700">Speaking, Writing, Video Creation, Strategic Narratives, Ads, Films, TV Series, Animations</td>
+                <td className="px-6 py-4 whitespace-normal text-sm text-gray-700">Book, WEF Davos, TEDx, Cannes Lions, Columnist for Huffpost, Forbes, WEF Agenda, Al Arabiya</td>
                 <td className="px-6 py-4 whitespace-normal text-sm text-gray-700">Led Global Shapers initiatives; produced award-winning animation (Pet Alien) with Emmy recognition.</td>
               </tr>
             </tbody>
