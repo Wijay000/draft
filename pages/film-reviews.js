@@ -12,6 +12,32 @@ export default function FilmReviews() {
     'Pather Panchali (Bengali)',
     'Kottukaali (Tamil)',
     'Visaranai (Tamil)'
+    ,
+    // Additional cards requested by user
+    'Dragon (Tamil)',
+    'Fandry (Marati)',
+    'Viduthalai (Tamil)',
+    'Badhaai Ho (Hindi)',
+    'Pariyerum Perumal (Tamil)',
+    'Newton (Hindi)',
+    'Merkku Thodarchi Malai (Tamil)',
+    'Sairat (Marati)',
+    'Ner Konda Paarvai (Tamil)',
+    'Baahubali (Telugu)',
+    'Super Deluxe (Tamil)',
+    'Jailer (Tamil)',
+    'Ponniyin Selvan (Tamil)',
+    'Jai Bhim (Tamil)',
+    '96 (Tamil)',
+    'Vikram Vedha (Tamil)',
+    'Kaakka Muttai (Tamil)',
+    'Ok Kanmani (Tamil)',
+    'Darbar (Tamil)',
+    'Asuran (Tamil)',
+    'Kaapaan (Tamil)',
+    'Peranbu (Tamil)',
+    '2.0 (Tamil)',
+    'Padmavat (Hindi)'
   ]
 
   const posts = focusedTitles.map((t) => reviewsData.find((r) => r.title === t)).filter(Boolean)
