@@ -3,7 +3,7 @@ export default function Insights() {
   const featuredPost = {
     title: "Is prompting new?",
     date: "",
-    description: "Over the last two months, there are so many posts shared in Linkedin on how to do \"prompting\" in #chatGPT.",
+  description: "Over the last two months, there are so many posts shared in Linkedin on how to do \"prompting\" in #chatGPT. When I shared with my friends on how to do 'prompts' in chatGPT, they were surprised. But is \"prompting\" such a new thing?",
     url: "https://medium.com/@innovate_11669/is-prompting-new-b09d8fb706df"
   };
 
