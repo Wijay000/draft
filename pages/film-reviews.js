@@ -55,7 +55,7 @@ export default function FilmReviews() {
           href="https://vgthinks.medium.com/delving-into-film-classics-fbeeab916b9f"
           target="_blank"
           rel="noopener noreferrer"
-          className="block group rounded-lg shadow-lg hover:shadow-2xl p-8 transition-all bg-gradient-to-br from-white to-gray-50 max-w-3xl mx-auto"
+          className="block group rounded-lg shadow-lg hover:shadow-2xl p-8 transition-all bg-gradient-to-br from-white to-gray-50 w-full"
         >
           <h3 className="text-2xl sm:text-3xl font-bold text-gray-900 group-hover:text-[#b80a2c] transition-colors mb-4">
             Review of Movie Classics
