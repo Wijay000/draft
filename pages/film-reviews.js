@@ -11,7 +11,15 @@ export default function FilmReviews() {
     'Amores de Chumbo (Portuguese)',
     'Pather Panchali (Bengali)',
     'Kottukaali (Tamil)',
-    'Visaranai (Tamil)'
+    'Visaranai (Tamil)',
+    // Additional entries requested by user
+    'Dragon (Tamil)',
+    'Fandry (Marati)',
+    'Viduthalai (Tamil)',
+    'Badhaai Ho (Hindi)',
+    'Pariyerum Perumal (Tamil)',
+    'Newton (Hindi)',
+    'Merkku Thodarchi Malai (Tamil)'
   ]
 
   const posts = focusedTitles.map((t) => reviewsData.find((r) => r.title === t)).filter(Boolean)
