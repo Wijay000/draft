@@ -1,10 +1,10 @@
 export default function Insights() {
   // Featured article
   const featuredPost = {
-    title: "Movie Classics (English)",
+    title: "Is prompting new?",
     date: "",
     description: "Diving into truthful and original art through film classics After being tired of watching non inventive Tamil films where the directors believe that ‘Gangsters’ are the only character vehicles to …",
-    url: "https://vgthinks.medium.com/delving-into-film-classics-fbeeab916b9f"
+    url: "https://medium.com/@innovate_11669/is-prompting-new-b09d8fb706df"
   };
 
   // Other articles/posts
