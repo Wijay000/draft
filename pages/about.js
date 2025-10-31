@@ -41,52 +41,50 @@ export default function About() {
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.2 }}
-        className="prose prose-lg max-w-none"
+        className="max-w-none"
       >
-        <p className="text-xl leading-relaxed mb-6 italic text-gray-800">
-          The world is moving faster than your next decision.<br />
-          You don't need all the answers. You just have to start with clarity.
-        </p>
+        {/* Replace long-form bio with a concise table as requested */}
+        <div className="overflow-x-auto bg-white rounded-lg shadow-sm">
+          <table className="min-w-full divide-y divide-gray-200">
+            <thead className="bg-gray-50">
+              <tr>
+                <th scope="col" className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Role</th>
+                <th scope="col" className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">How I create value</th>
+                <th scope="col" className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">How I create impact</th>
+                <th scope="col" className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Credibility</th>
+              </tr>
+            </thead>
+            <tbody className="bg-white divide-y divide-gray-200">
+              <tr className="hover:bg-gray-50">
+                <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">Strategy Leader</td>
+                <td className="px-6 py-4 whitespace-normal text-sm text-gray-700">Partner with CEOs and senior teams to translate complexity into clear, testable strategic choices and roadmaps.</td>
+                <td className="px-6 py-4 whitespace-normal text-sm text-gray-700">Design and launch cross-sector initiatives that mobilise stakeholders and scale solutions globally.</td>
+                <td className="px-6 py-4 whitespace-normal text-sm text-gray-700">Head of Strategy, World Economic Forum; worked with 300+ unicorns and Heads of State.</td>
+              </tr>
 
-        <p className="text-lg leading-relaxed mb-6 text-gray-700">
-          I help business leaders, senior executives, startup founders, and leaders in government and nonprofits turn complexity into clarity and innovation into impact. Over the past decade, I have partnered with global companies, foundations, and philanthropies to design and launch strategic initiatives that unite creativity with responsibility.
-        </p>
+              <tr className="hover:bg-gray-50">
+                <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">Entrepreneur & Builder</td>
+                <td className="px-6 py-4 whitespace-normal text-sm text-gray-700">Create ventures and labs that prototype new business models and test them in-market rapidly.</td>
+                <td className="px-6 py-4 whitespace-normal text-sm text-gray-700">Launch ventures addressing healthcare access, workforce reinvention, and grassroots entrepreneurship.</td>
+                <td className="px-6 py-4 whitespace-normal text-sm text-gray-700">Founder: The Propel Labs, Obesity Innovation Lab; Entrepreneur in Residence at The Adecco Group.</td>
+              </tr>
 
-        <p className="text-lg leading-relaxed mb-6 text-gray-700">
-          As Head of Strategy at the World Economic Forum, I partnered with CEOs from more than 300 unicorns and hypergrowth companies as well as Heads of State of leading economies to accelerate the adoption of new technologies, responsible innovation, and sustainable transformation.
-        </p>
+              <tr className="hover:bg-gray-50">
+                <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">Venture Director & Innovator</td>
+                <td className="px-6 py-4 whitespace-normal text-sm text-gray-700">Incubate and scale innovation projects using human-centered design and rigorous testing.</td>
+                <td className="px-6 py-4 whitespace-normal text-sm text-gray-700">Delivered award-winning healthcare solutions that expanded access for low-income patients.</td>
+                <td className="px-6 py-4 whitespace-normal text-sm text-gray-700">Venture Director at Innosight Ventures; Edison Award–winning project for Medtronic.</td>
+              </tr>
 
-        <p className="text-lg leading-relaxed mb-6 text-gray-700">
-          At the Forum, I also led first-of-their-kind initiatives such as the Global Shapers Community, Climate Shape, and the Shaping the Better Future innovation challenges. These strategic initiatives empowered young changemakers in more than 450 cities worldwide to solve local problems through scalable and sustainable social innovations.
-        </p>
-
-        <p className="text-lg leading-relaxed mb-6 text-gray-700">
-          After my stint at the Forum, I became an entrepreneur, launching The Propel Labs, the Obesity Innovation Lab, and The Perennial Project. I am also building a community of middle-aged professionals who are reinventing themselves to lead fulfilling and impactful second halves of their lives.
-        </p>
-
-        <p className="text-lg leading-relaxed mb-6 text-gray-700">
-          Presently, as Entrepreneur in Residence at The Adecco Group, I help design ventures that expand access and opportunity for underserved communities. These include Mamas Chingonas in Mexico and Vou Brotar in Brazil, which support women and grassroots entrepreneurs. More recently, I am creating a Launchpad for Mature Job Seekers to connect older professionals with new pathways into the future of work.
-        </p>
-
-        <p className="text-lg leading-relaxed mb-6 text-gray-700">
-          Earlier, as Venture Director at Innosight Ventures, the venture-building firm co-founded by Harvard Business School's Clay Christensen, I incubated multiple innovation projects including the Edison Award–winning "Healthy Heart for All" for Medtronic, which expanded access to cardiac therapies for low-income patients.
-        </p>
-
-        <p className="text-lg leading-relaxed mb-6 text-gray-700">
-          Before that, I led Pet Alien, India's first Disney-style animation series for Cartoon Network, guiding a 120-member creative team that earned national awards and Emmy nominations and helped spark India's modern animation industry.
-        </p>
-
-        <p className="text-lg leading-relaxed mb-6 text-gray-700">
-          I hold a Master's in Global Leadership jointly offered by INSEAD, Wharton, Columbia, London Business School, and CEIBS China along with the World Economic Forum, where I was a Global Leadership Fellow. I also hold an MBA from the International University of Japan, awarded with the prestigious Monbukagakusho scholarship from the Government of Japan, and a Bachelor's degree in Mechanical Engineering.
-        </p>
-
-        <p className="text-lg leading-relaxed mb-6 text-gray-700">
-          I have spoken at the World Economic Forum in Davos, Cannes Lions, and TEDx, and my writing has been featured in the WEF Agenda, Al Arabiya, HuffPost, and Forbes.
-        </p>
-
-        <p className="text-lg leading-relaxed font-semibold text-gray-900">
-          If you are seeking that clarity to launch your next big initiative, connect with me.
-        </p>
+              <tr className="hover:bg-gray-50">
+                <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">Community Builder & Storyteller</td>
+                <td className="px-6 py-4 whitespace-normal text-sm text-gray-700">Mobilise people through narrative, programs and networks that create sustained behaviour change.</td>
+                <td className="px-6 py-4 whitespace-normal text-sm text-gray-700">Built global programs that empowered changemakers across hundreds of cities and supported animation & creative industries in India.</td>
+                <td className="px-6 py-4 whitespace-normal text-sm text-gray-700">Led Global Shapers initiatives; produced award-winning animation (Pet Alien) with Emmy recognition.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
       </motion.div>
 
       {/* Testimonials Section */}
