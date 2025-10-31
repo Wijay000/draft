@@ -44,30 +44,30 @@ export default function About() {
         className="max-w-none"
       >
         <div className="prose prose-lg max-w-none bg-white p-6 rounded-lg shadow-sm">
-          <h2>Turning Complexity into Clarity and Innovation into Impact</h2>
+          <h2 className="font-semibold">Turning Complexity into Clarity and Innovation into Impact</h2>
 
           <p>
-            Where: At international organizations such as World Economic Forum, Innovation Consulting firms such as Innosight Ventures, Creative agencies such as Crest Animation Studios, with clients such as Medtronic and The Adecco Group and as an Entrepreneur
+            <strong>Where:</strong> At international organizations such as World Economic Forum, Innovation Consulting firms such as Innosight Ventures, Creative agencies such as Crest Animation Studios, with clients such as Medtronic and The Adecco Group and as an Entrepreneur
           </p>
 
           <p>
-            With: CEOs &amp; Senior Executives in Business, PMs, Presidents, Innovation Leaders, Entrepreneurs and non profit leaders
+            <strong>With:</strong> CEOs &amp; Senior Executives in Business, PMs, Presidents, Innovation Leaders, Entrepreneurs and non profit leaders
           </p>
 
           <p>
-            As: Head of Strategy at the World Economic Forum, Venture Director at Innosight Ventures, Entrepreneur in Residence at The Adecco Group, Technical Director at Crest Animation Studios
+            <strong>As:</strong> Head of Strategy at the World Economic Forum, Venture Director at Innosight Ventures, Entrepreneur in Residence at The Adecco Group, Technical Director at Crest Animation Studios
           </p>
 
           <p>
-            Launching: First of its kind initiatives from India’s first 3D computer animation series to corporate venture building to global community building to driving business model innovation
+            <strong>Launching:</strong> First of its kind initiatives from India’s first 3D computer animation series to corporate venture building to global community building to driving business model innovation
           </p>
 
           <p>
-            Impacting: Youth, Mature Workers, Women back to work, CXOs, Heads of State, Low Income Patients, Barbers, Washermen, Kids to name a few
+            <strong>Impacting:</strong> Youth, Mature Workers, Women back to work, CXOs, Heads of State, Low Income Patients, Barbers, Washermen, Kids to name a few
           </p>
 
           <p>
-            Through:
+            <strong>Through:</strong>
           </p>
 
           <ul>
@@ -89,9 +89,39 @@ export default function About() {
           </ul>
 
           <p>
-            Across: India, Japan, Switzerland, the United States, Singapore, Mexico, Brazil, the United Kingdom, and 450+ cities in 181 countries
+            <strong>Across:</strong> India, Japan, Switzerland, the United States, Singapore, Mexico, Brazil, the United Kingdom, and 450+ cities in 181 countries
           </p>
         </div>
+      </motion.div>
+
+      {/* Education Section */}
+      <motion.div
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ delay: 0.3 }}
+        className="prose prose-lg max-w-none bg-white p-6 rounded-lg shadow-sm mt-6"
+      >
+        <h3 className="font-semibold">Education:</h3>
+
+        <p>
+          <strong>Master’s in Global Leadership</strong>
+          <br />
+          Jointly offered by INSEAD, Wharton School at UPenn, Columbia University, London Business School, CEIBS China along with the World Economic; Global Leadership Fellow
+        </p>
+
+        <p>
+          <strong>MBA</strong>
+          <br />
+          International University of Japan
+          <br />
+          Monbukagakusho Scholarship from the Ministry of Education, Culture, Sports, Science and Technology (MEXT), Govt of Japan; JASSO Scholar; Sojitsu Foundation Scholar
+        </p>
+
+        <p>
+          <strong>Bachelor’s in Mechanical Engineering</strong>
+          <br />
+          Madurai Kamaraj University, India
+        </p>
       </motion.div>
 
       {/* Testimonials Section */}
