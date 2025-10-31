@@ -1,10 +1,10 @@
 export default function Insights() {
   // Featured article
   const featuredPost = {
-    title: "Is 'prompting' new?",
+    title: "Movie Classics (English)",
     date: "",
-    description: "Exploring how prompting in AI mirrors ancient practices of asking the right questions - from Socratic dialogues to modern large language models. Understanding prompting as a timeless art of inquiry rather than a novel invention.",
-    url: "https://medium.com/@innovate_11669/is-prompting-new-b09d8fb706df"
+    description: "Diving into truthful and original art through film classics After being tired of watching non inventive Tamil films where the directors believe that ‘Gangsters’ are the only character vehicles to …",
+    url: "https://vgthinks.medium.com/delving-into-film-classics-fbeeab916b9f"
   };
 
   // Other articles/posts
