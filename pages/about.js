@@ -107,7 +107,7 @@ export default function About() {
         <p>
           <strong>Masters in Global Leadership</strong>
           <br />
-          Jointly offered by INSEAD, Wharton School at UPenn, Columbia University, London Business School, CEIBS China along with the World Economic; Global Leadership Fellow
+          Jointly offered by INSEAD, Wharton School at UPenn, Columbia University, London Business School, CEIBS China along with the World Economic Forum; WEF Global Leadership Fellow
         </p>
 
         <p>
