@@ -44,7 +44,7 @@ export default function About() {
         className="max-w-none"
       >
         <div className="prose prose-lg max-w-none bg-white p-6 rounded-lg shadow-sm">
-          <h2 className="font-semibold">Turning Complexity into Clarity and Innovation into Impact</h2>
+          <h2 className="font-semibold">Turning Complexity into Clarity, Innovation into Impact</h2>
 
           <p>
             <strong>Where:</strong> At international organizations such as World Economic Forum, Innovation Consulting firms such as Innosight Ventures, Creative agencies such as Crest Animation Studios, with clients such as Medtronic and The Adecco Group and as an Entrepreneur
