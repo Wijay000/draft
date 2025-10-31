@@ -37,53 +37,64 @@ export default function About() {
         </div>
       </motion.div>
 
+    </div>
+  )
+}
+
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.2 }}
         className="max-w-none"
       >
-        {/* Replace long-form bio with a concise table as requested */}
-        <div className="overflow-x-auto bg-white rounded-lg shadow-sm">
-          <table className="min-w-full divide-y divide-gray-200">
-            <thead className="bg-gray-50">
-              <tr>
-                <th scope="col" className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"></th>
-                <th scope="col" className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">How I create value</th>
-                <th scope="col" className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Impact</th>
-                <th scope="col" className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Credibility</th>
-              </tr>
-            </thead>
-            <tbody className="bg-white divide-y divide-gray-200">
-              <tr className="hover:bg-gray-50">
-                <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">Strategist</td>
-                <td className="px-6 py-4 whitespace-normal text-sm text-gray-700">Strategic Choices, Community Building, Executive Coaching</td>
-                <td className="px-6 py-4 whitespace-normal text-sm text-gray-700">WEF Summer Davos in China, WEF Digital, Global Shapers Community</td>
-                <td className="px-6 py-4 whitespace-normal text-sm text-gray-700">Head of Strategy, World Economic Forum; worked with 300+ unicorns and Heads of State.</td>
-              </tr>
+        <div className="prose prose-lg max-w-none bg-white p-6 rounded-lg shadow-sm">
+          <h2>Turning Complexity into Clarity and Innovation into Impact</h2>
 
-              <tr className="hover:bg-gray-50">
-                <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">Entrepreneur</td>
-                <td className="px-6 py-4 whitespace-normal text-sm text-gray-700">New Ventures, Strategic Initiatives, Pilots, Prototypes, Proof of Concepts</td>
-                <td className="px-6 py-4 whitespace-normal text-sm text-gray-700">The Perennial Project, The Propel Labs, Obesity Innovation Lab, Razor Rave, Village Laundry Services</td>
-                <td className="px-6 py-4 whitespace-normal text-sm text-gray-700">Founder: The Propel Labs, Obesity Innovation Lab; Entrepreneur in Residence at The Adecco Group.</td>
-              </tr>
+          <p>
+            Where: At international organizations such as World Economic Forum, Innovation Consulting firms such as Innosight Ventures, Creative agencies such as Crest Animation Studios, with clients such as Medtronic and The Adecco Group and as an Entrepreneur
+          </p>
 
-              <tr className="hover:bg-gray-50">
-                <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">Innovator</td>
-                <td className="px-6 py-4 whitespace-normal text-sm text-gray-700">Workshops, Consulting, Innovation Sprints, Capability Building for AI, Training</td>
-                <td className="px-6 py-4 whitespace-normal text-sm text-gray-700">Mamas Chingonas in Mexico, Vou Broar in Brazil, Launchpad in UK, Healthy Heart for All, Innovation Strategy for TCS, J&J, Medtronic</td>
-                <td className="px-6 py-4 whitespace-normal text-sm text-gray-700">Venture Director at Innosight Ventures; Edison Award–winning project for Medtronic.</td>
-              </tr>
+          <p>
+            With: CEOs &amp; Senior Executives in Business, PMs, Presidents, Innovation Leaders, Entrepreneurs and non profit leaders
+          </p>
 
-              <tr className="hover:bg-gray-50">
-                <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">Storyteller</td>
-                <td className="px-6 py-4 whitespace-normal text-sm text-gray-700">Speaking, Writing, Video Creation, Strategic Narratives, Ads, Films, TV Series, Animations</td>
-                <td className="px-6 py-4 whitespace-normal text-sm text-gray-700">Book, WEF Davos, TEDx, Cannes Lions, Columnist for Huffpost, Forbes, WEF Agenda, Al Arabiya</td>
-                <td className="px-6 py-4 whitespace-normal text-sm text-gray-700">Led Global Shapers initiatives; produced award-winning animation (Pet Alien) with Emmy recognition.</td>
-              </tr>
-            </tbody>
-          </table>
+          <p>
+            As: Head of Strategy at the World Economic Forum, Venture Director at Innosight Ventures, Entrepreneur in Residence at The Adecco Group, Technical Director at Crest Animation Studios
+          </p>
+
+          <p>
+            Launching: First of its kind initiatives from India’s first 3D computer animation series to corporate venture building to global community building to driving business model innovation
+          </p>
+
+          <p>
+            Impacting: Youth, Mature Workers, Women back to work, CXOs, Heads of State, Low Income Patients, Barbers, Washermen, Kids to name a few
+          </p>
+
+          <p>
+            Through:
+          </p>
+
+          <ul>
+            <li>
+              Global Shapers Community in 450+ cities, empowering young changemakers to design scalable social innovations and giving them a seat at the table in shaping a better future.
+            </li>
+            <li>
+              Inclusive ventures such as Mamas Chingonas (Mexico), Vou Brotar (Brazil), and the Launchpad for Mature Job Seekers(UK), Razor Rave (India) expanding access and opportunity.
+            </li>
+            <li>
+              Award-winning innovations like Healthy Heart for All at Innosight Ventures, broadening access to cardiac care for underserved communities.
+            </li>
+            <li>
+              Leading creative and engineering teams to deliver India’s first Disney-style animation series for Cartoon Network and several series for PBS, Nickelodeon, Disney
+            </li>
+            <li>
+              Spreading ideas to global audiences through TEDx, Cannes Lions, and WEF Davos.
+            </li>
+          </ul>
+
+          <p>
+            Across: India, Japan, Switzerland, the United States, Singapore, Mexico, Brazil, the United Kingdom, and 450+ cities in 181 countries
+          </p>
         </div>
       </motion.div>
 
@@ -113,7 +124,7 @@ export default function About() {
               className="text-gray-600 italic p-4 bg-gray-50 rounded-lg"
             >
               "Vijay is as creative and innovative thinker as I have come across in my career. What sets him apart is ability to quickly get in the market and test out key assumptions and gather market insights around the consumer job to be done"
-              <footer className="mt-2 font-semibold">- Hari Nair, Vice President, R&D Fabric & Home Care Global Packaging, Learning Lab and Partner Lab at Procter & Gamble, Co-Author The Innovative Leader</footer>
+              <footer className="mt-2 font-semibold">- Hari Nair, Vice President, R&D Fabric &amp; Home Care Global Packaging, Learning Lab and Partner Lab at Procter &amp; Gamble, Co-Author The Innovative Leader</footer>
             </motion.blockquote>
             <motion.blockquote
               initial={{ opacity: 0 }}
@@ -136,6 +147,3 @@ export default function About() {
           </div>
         </div>
       </motion.div>
-    </div>
-  )
-}
