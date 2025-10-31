@@ -90,7 +90,7 @@ export default function About() {
           </ul>
 
           <p>
-            <strong>Across:</strong> India, Japan, Switzerland, the United States, Singapore, Mexico, Brazil, the United Kingdom, and 450+ cities in 181 countries
+            <strong>Across:</strong> India, Japan, Switzerland, United States, Singapore, Mexico, Brazil, the United Kingdom, and 450+ cities in 181 countries
           </p>
         </div>
       </motion.div>
