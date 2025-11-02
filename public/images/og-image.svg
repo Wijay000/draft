@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1">
+      <stop offset="0" stop-color="#111827" />
+      <stop offset="1" stop-color="#b80a2c" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#g)" />
+  <g fill="#fff" font-family="Inter, Arial, Helvetica, sans-serif">
+    <text x="60" y="170" font-size="44" font-weight="600">Vijay A. Raju</text>
+    <text x="60" y="240" font-size="64" font-weight="800">Leadership & AI Growth</text>
+    <text x="60" y="320" font-size="34" fill="#fdecea">Expert guidance in leadership and AI-driven growth</text>
+  </g>
+  <rect x="60" y="380" rx="8" ry="8" width="1080" height="1" fill="#ffffff22" />
+  <text x="60" y="430" font-family="Inter, Arial, Helvetica, sans-serif" font-size="28" fill="#fff">Insights, strategy, and practical guidance for leaders building with AI.</text>
+</svg>

@@ -1,3 +1,5 @@
+import SEO from '../components/SEO'
+
 export default function Insights() {
   // Featured article
   const featuredPost = {
@@ -103,6 +105,8 @@ export default function Insights() {
 
   return (
     <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16">
+      <SEO title="Insights" description="Essays at the intersection of technology, business and society." url="/insights" image="/images/og-image.svg" />
+
       <header className="mb-10 sm:mb-12 text-center">
         <h1 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-2">Insights</h1>
   <p className="text-base sm:text-lg text-gray-600">Essays at the intersection of technology, business and society</p>

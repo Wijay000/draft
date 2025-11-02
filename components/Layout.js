@@ -9,9 +9,39 @@ export default function Layout({ children }) {
   return (
     <>
       <Head>
-        <title>Leadership & AI Growth</title>
+        <title>Engage with Vijay A. Raju</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="description" content="Expert guidance in leadership and AI-driven growth" />
+        <meta name="robots" content="index,follow" />
+        {/* Replace https://your-domain.com with your production URL */}
+        <link rel="canonical" href="https://your-domain.com" />
+
+        {/* Open Graph */}
+        <meta property="og:title" content="Engage with Vijay A. Raju" />
+        <meta property="og:description" content="Expert guidance in leadership and AI-driven growth" />
+        <meta property="og:type" content="website" />
+  <meta property="og:image" content="/images/og-image.svg" />
+
+        {/* Twitter Card */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Engage with Vijay A. Raju" />
+        <meta name="twitter:description" content="Expert guidance in leadership and AI-driven growth" />
+  <meta name="twitter:image" content="/images/og-image.svg" />
+
+        {/* JSON-LD Organization (replace url and sameAs entries with your real links) */}
+        <script type="application/ld+json">
+          {`{
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "Vijay A. Raju",
+            "url": "https://your-domain.com",
+            "logo": "https://your-domain.com/images/Vijay - About.jpeg",
+            "sameAs": [
+              "https://www.linkedin.com/",
+              "https://twitter.com/"
+            ]
+          }`}
+        </script>
       </Head>
 
       <header className="fixed top-0 left-0 right-0 bg-white shadow-sm z-50">

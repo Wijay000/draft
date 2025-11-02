@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion'
 import reviewsData from '../data/reviews.json'
+import SEO from '../components/SEO'
 
 export default function FilmReviews() {
   // Explicit list and order of reviews to display on this page
@@ -44,9 +45,10 @@ export default function FilmReviews() {
 
   return (
     <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16">
+      <SEO title="Film Reviews" description="Film reviews and criticism — essays and short takes on cinema from around the world." url="/film-reviews" image="/images/og-image.svg" />
       <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="text-center mb-10">
         <h1 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-2">Film Reviews</h1>
-        <p className="text-base sm:text-lg text-gray-600">My movie reviews have been published in Huffpost India</p>
+  <p className="text-base sm:text-lg text-gray-600">I love studying and analysing films. My film reviews have been published in Huffpost.</p>
       </motion.div>
 
       {/* Featured review (styled like Insights featured article) */}
